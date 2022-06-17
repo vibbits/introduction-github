@@ -7,3 +7,4 @@
 * https://material.bits.vib.be/topics/git-introduction/
 * https://github.com/jupyterlab/jupyterlab-git
 * https://git-scm.com/downloads/guis
+* [Book](https://git-scm.com/book)
