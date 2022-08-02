@@ -9,7 +9,23 @@
 * Work as a group on a project (paper or script [checkout, branch])
 * Contribute to an open-source project ([github PRs, Forking,]) _(Concept)_
 
-## Existing flow
+## Tasks
+
+### Basic Tasks
+
+* Copy a remote project (manuscript, script, library, ...) onto your computer
+* Make changes to your script/manuscript/...
+* Update the remote repository
+* Update your project with changes from the repote repository
+
+### Advanced Tasks
+
+* Find out why a change was made
+* Fix a mistake (Undo a change)
+* Make experimental changes without affecting a known-good-state
+* Work collaboratively with others (or yourself) on a project
+
+## Existing syllabus
 
 1. Motivate version control
 3. What is version control
@@ -65,12 +81,9 @@
 1. Using RStudio as a git porcelain
 
 
-> [name=James Collier] I would like to look inside the `.git/` folder a little. Take away some of the magic.
 
 
-
-
-## New way
+## New Syllabus
 
 ### Prior to course day
 1. Install practicalities (check in; as students are arriving) 
@@ -93,9 +106,15 @@
 1. Motivate version control
     * Ask, "what is the problem here?"  with the phdcomics comic
 4. What is version control?
-5. Git and GitHub
+    * Analogy with "undo/redo" in word processors.
+    * What does "undo/redo" lack that would be nice?
+        * label changes
+        * annotate why a change was made
+        * ability to move back and forth between alternative versions
+        * ...
+6. Git and GitHub
     * Are they the same?
-6. Introduce 4 conceptual "areas"/"locations"/"spaces" when using `git`.
+7. Introduce 4 conceptual "areas"/"locations"/"spaces" when using `git`.
     * Picture for visualization of concepts ![original](https://i.imgur.com/Vi1Ui8i.png)
         * Development area
         * Staging area
@@ -147,10 +166,11 @@
 
     * Remote repository `git remote`
 1. Practical
-    * Today you will write yourself a `git` reference or tutorial (up to you).
+    * Today you will write yourself a `git` reference/tutorial/cheatsheet (up to you).
+    * Try to keep a reference/dictionary of important terms.
     * Create a folder and save a new text document inside it `tutorial.md`
-        * Development area 
-            * Where it is?
+        * Working folder 
+            * Where is it?
             * What is it for?
 
 1. Create a repository
@@ -162,20 +182,23 @@
 7. Routine usage _(relating to conceptual areas)_
     * `git add` to add files to the staging area
         * `.gitignore` (Github provides some templates)
-        *  * Staging area (`git add`)
-            * Where it is?
-            * How it works?
-            * When is it helpful?
+        *  Staging area (`git add`)
+            * Where is it?
+            * What is it for?
     * `git commmit` to commit added files
         * What is the difference Commit vs Staging
-        * Why to comment?
-        * How specific/detailed should it be?
-            * Why is it editted
-            * What is eddited
-            * What 'fetures' is eing changed or added
-            * etc
+        * Why write a commit message?
+        * How to write a good commit message:
+            * Describe why the change was made.
+            * How does it address the issue?
+            * What effects does the change have?
+            * Describe any limitations of the change.
+            * Do not assume the person who later reads the message (probably you) will understand what the original problem was.
+            * The first commit line is the most important. This is what will be displayed in summaries.
+            * https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+            * This all adds context that will be useful when you have to come back to it one day. This context is usually missing from your code and would otherwise be lost forever.
 
-1. Remote repository (use-case: single-user; multiple computers e.g. backup)
+1. Remote repository (use-case: single-user on multiple computers or backup; collaboration)
     * There are many possible remotes
         * Your own computer
         * Your colleagues computer
@@ -241,20 +264,34 @@
 
 ## Useful Resources (for us)
 
-* ![xkcd 1](https://miro.medium.com/max/700/0*MwRBr28j328HTQJS.png)
+* ![xkcd commits](https://imgs.xkcd.com/comics/git_commit.png)
 * https://education.github.com/git-cheat-sheet-education.pdf
 * Conflict resolution
+* ![flowchart](https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fexternal-preview.redd.it%2FLYJtffuLq552Q_jl6H1UixIFpI9d_rhEmAuL0xPgdjE.png%3Fauto%3Dwebp%26s%3D555bf79f4800de54d017219beb7a11c66f0de7b9&sp=1659441076Tcc988ddaa866042048a6a665540a58a7314091d6cb95a303a58c30b7bebfd6f2)
+* ![git](https://madusudanan.com/images/xkcd-vc.jpg)
+  > https://madusudanan.com/blog/best-practices-for-using-version-control-systems/
+* https://ohshitgit.com/
+* https://xosh.org/explain-git-in-simple-words/
+* https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc
+* https://www.slideshare.net/raquelmorenocarmena/git-challenges
+* ![xkcd](https://imgs.xkcd.com/comics/git.png)
+* ![ericaheidi on dev.to](https://thepracticaldev.s3.amazonaws.com/i/d9n3kcnc76l5viwl4z2n.jpeg)
+  > https://eheidi.dev/blog/stage-commit-push-a-git-story-comic-a37
+* 
 
 ## Ideas:
 
 * The whole day each student is writing a `git` tutorial for themselves, commiting all of their changes along the way. The end result is a personalised `git` reference that they can use.
 * Groups teach each other a concept (); alternative split everyone into pairs (one teaches the other).
+* I would like to look inside the `.git/` folder a little. Take away some of the magic.
 
 ## Porcelains to suggest
 * [GitFiend](https://gitfiend.com/)
 * [Ungit](https://github.com/FredrikNoren/ungit)
 * [Kraken](https://help.gitkraken.com/gitkraken-client/gitkraken-client-home/)
 
+### Paid and/or proporitary
+* [Fork](https://git-fork.com/)
 
 ## Footnotes
 [^mean]: Could potentially tell students to run `rm -rf ${REPO_FOLDER}`
