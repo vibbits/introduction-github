@@ -96,14 +96,55 @@
 5. Git and GitHub
     * Are they the same?
 6. Introduce 4 conceptual "areas"/"locations"/"spaces" when using `git`.
-    * Picture for visualization of concepts ![](![](https://i.imgur.com/Vi1Ui8i.png)
+    * Picture for visualization of concepts ![original](https://i.imgur.com/Vi1Ui8i.png)
         * Development area
         * Staging area
         * Local Repository
         * Remote Repository
-   
-   
+    * **Four areas:**
+
+      ![James' alternative](https://github.com/vibbits/introduction-github/raw/master/images/four_areas.svg)
+      
+    * **In the beginning:**
+
+      ![James' alternative](https://github.com/vibbits/introduction-github/raw/master/images/in_the_beginning.svg)
+
+    * **`git init`**
+
+      ![git init](https://github.com/vibbits/introduction-github/raw/master/images/git_init.svg)
+      
+    * **`git add`**
+
+      ![git add](https://github.com/vibbits/introduction-github/raw/master/images/git_add.svg)
     
+    * **`git commit`**
+
+      ![git commit](https://github.com/vibbits/introduction-github/raw/master/images/git_commit.svg)
+
+    * **`git remote add`**
+
+      ![git remote add](https://github.com/vibbits/introduction-github/raw/master/images/git_remote_add.svg)
+
+    * **`git push`**
+
+      ![git push](https://github.com/vibbits/introduction-github/raw/master/images/git_push.svg)
+
+    * **`git pull`**
+
+      ![git pull](https://github.com/vibbits/introduction-github/raw/master/images/git_pull.svg)
+
+    * **`git reset`**
+
+      ![git reset](https://github.com/vibbits/introduction-github/raw/master/images/git_reset.svg)
+
+    * **`git checkout`**
+
+      ![git checkout](https://github.com/vibbits/introduction-github/raw/master/images/git_checkout.svg)
+
+    * **`git restore`**
+
+      ![git restore](https://github.com/vibbits/introduction-github/raw/master/images/git_restore.svg)
+
     * Remote repository `git remote`
 1. Practical
     * Today you will write yourself a `git` reference or tutorial (up to you).
