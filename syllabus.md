@@ -1,5 +1,8 @@
 # Git and Github Training
 
+[![hackmd-github-sync-badge](https://hackmd.io/6jsLSmuBQXmdcdM64udlbg/badge)](https://hackmd.io/6jsLSmuBQXmdcdM64udlbg)
+
+
 ## Use-cases
 * Single-user: Recover previous state (or a paper; or script; maybe you want to work on different computer [add, commit, push, pull, checkout, revert]; talk about conflict resolution in this context)
 * Publish code on a GitHub (as a publication requirement [add, commit, push])
