@@ -926,7 +926,7 @@
        inkscape:isstock="true">
       <path
          transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         style="fill:#000;fill-rule:evenodd;stroke:#000;stroke-width:1pt"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path39882" />
     </marker>
