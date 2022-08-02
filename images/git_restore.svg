@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="133.51849mm"
-   height="87.886284mm"
-   viewBox="0 0 133.51849 87.886284"
+   width="113.08482mm"
+   height="81.303391mm"
+   viewBox="0 0 113.08482 81.30339"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="git_init.svg"
+   sodipodi:docname="git_restore.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.77593294"
-     inkscape:cx="278.37457"
-     inkscape:cy="169.47341"
+     inkscape:cx="219.0911"
+     inkscape:cy="-115.34502"
      inkscape:window-width="2558"
      inkscape:window-height="1078"
      inkscape:window-x="1920"
@@ -39,6 +39,20 @@
      fit-margin-bottom="0" />
   <defs
      id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker39884"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path39882" />
+    </marker>
     <marker
        style="overflow:visible"
        id="Arrow1Mend"
@@ -483,7 +497,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-9.4243822,-69.310217)">
+     transform="translate(-6.3387733,-69.310217)">
     <text
        xml:space="preserve"
        style="font-size:8.46667px;line-height:1.25;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
@@ -495,24 +509,6 @@
          style="font-size:8.46667px;stroke-width:0.264583"
          x="36.088753"
          y="75.482452">My computer</tspan></text>
-    <rect
-       style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect30259"
-       width="36.419052"
-       height="10.956325"
-       x="106.52383"
-       y="146.24017" />
-    <text
-       xml:space="preserve"
-       style="font-size:7.05556px;line-height:1.25;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="124.86771"
-       y="153.6407"
-       id="text31385"><tspan
-         sodipodi:role="line"
-         id="tspan31383"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';stroke-width:0.264583"
-         x="124.86771"
-         y="153.6407">git init</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.483057;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.89835, 2.89835;stroke-dashoffset:0;stroke-opacity:1"
        id="rect7791"
@@ -526,7 +522,15 @@
        id="rect13555"
        width="33.224289"
        height="42.542648"
-       x="18.815313"
+       x="12.327046"
+       y="85.972511"
+       ry="0" />
+    <rect
+       style="fill:#cdf7ff;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13555-3"
+       width="33.224289"
+       height="42.542648"
+       x="47.811844"
        y="85.972511"
        ry="0" />
     <rect
@@ -534,44 +538,79 @@
        id="rect13555-6"
        width="33.224289"
        height="42.542648"
-       x="76.808372"
+       x="83.296631"
        y="85.972511"
        ry="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker39884)"
+       d="M 70.470728,128.02626 C 55.657545,154.5362 37.966494,154.82785 25.804165,128.15317"
+       id="path39781"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="28.59296"
+       y="105.46444"
+       id="text16218"><tspan
+         sodipodi:role="line"
+         style="font-size:7.05556px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="28.59296"
+         y="105.46444"
+         id="tspan16220">Work</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:7.05556px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="28.59296"
+         y="114.28389"
+         id="tspan16224">Folder</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:1.25;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="93.405014"
+       x="64.511833"
+       y="105.46444"
+       id="text22314"><tspan
+         sodipodi:role="line"
+         id="tspan22312"
+         style="stroke-width:0.264583"
+         x="64.511833"
+         y="105.46444">Staging</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="64.511833"
+         y="114.28389"
+         id="tspan22316">Area</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="99.893272"
        y="104.78059"
        id="text23910"><tspan
          sodipodi:role="line"
          id="tspan23908"
          style="stroke-width:0.264583"
-         x="93.405014"
+         x="99.893272"
          y="104.78059">Local</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
-         x="93.405014"
+         x="99.893272"
          y="113.60004"
          id="tspan23912">Repo</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect30259"
+       width="85.713936"
+       height="10.678654"
+       x="6.3387733"
+       y="139.93495" />
     <text
        xml:space="preserve"
-       style="font-size:7.05556px;line-height:1.25;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="35.081226"
-       y="105.46444"
-       id="text16218"><tspan
+       style="font-size:7.05556px;line-height:1.25;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="49.312874"
+       y="147.39166"
+       id="text31385"><tspan
          sodipodi:role="line"
-         style="font-size:7.05556px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="35.081226"
-         y="105.46444"
-         id="tspan16220">Work</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:7.05556px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="35.081226"
-         y="114.28389"
-         id="tspan16224">Folder</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
-       d="M 120.23235,145.95754 106.01693,125.32073"
-       id="path33616" />
+         id="tspan31383"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';stroke-width:0.264583"
+         x="49.312878"
+         y="147.39166">git restore --staged</tspan></text>
   </g>
 </svg>

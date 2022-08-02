@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   width="276.13312mm"
+   height="68.195168mm"
+   viewBox="0 0 276.13312 68.195168"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
@@ -25,14 +25,18 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.77593294"
-     inkscape:cx="469.75709"
-     inkscape:cy="431.09395"
+     inkscape:cx="278.37457"
+     inkscape:cy="170.76218"
      inkscape:window-width="2558"
      inkscape:window-height="1078"
      inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs2">
     <radialGradient
@@ -916,7 +920,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-9.4243812,-69.049333)">
     <g
        id="g286"
        transform="matrix(1.0648092,0,0,1.0648092,121.32835,79.991891)">
