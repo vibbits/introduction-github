@@ -1,0 +1,24 @@
+{
+  "name": "introduction-github",
+  "version": "1.0.0",
+  "description": "VIB Bioinformatics Core instructional resources for Git training.",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibbits/introduction-github.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vibbits/introduction-github/issues"
+  },
+  "homepage": "https://github.com/vibbits/introduction-github#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "parcel-transformer-markdown": "^2.1.1"
+  }
+}
