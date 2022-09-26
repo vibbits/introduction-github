@@ -1,0 +1,6 @@
+[submodule "theme_src/reveal.js"]
+	path = theme_src/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
+[submodule "theme_src/vib-css"]
+	path = theme_src/vib-css
+	url = https://github.com/vibbits/vib-css.git
