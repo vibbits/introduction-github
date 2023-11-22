@@ -1,24 +1,49 @@
 ---
 layout: tutorial_hands_on
 
-title: 3 Getting started
+title: 1 Introduction
 zenodo_link: ''
 questions:
-- How to initialize a version controlled repository?
-- How to make your first commits to that repository? 
-- How does Git work in its essence? 
+- Why should I version control and how to get started? 
+- What is the difference between Git & GitHub?
 objectives:
-- Make your own repository, clone into your local computer, make a file, make some changes, add to staging area, commit & push.
-- Understand how the different aspects and commands of version control interact with each other
-time_estimation: 1H
+- Understand why version control is essential in research projects
+- Explain how Git's conceptual areas interact
+time_estimation: 20m
 contributors:
 - tmuylder
 - bpiereck
 - MaybeJustJames
+---
+
+
+# 1. Introduction
+Have you also been in a similar and recognizable situation as depicted below? Saving different versions of your files and scripts is essential to keep track of changes, though it can become chaotic very quickly if we do not use the excellent tools we have available to us. Git is one of these excellent tools. It works similar to [Google Docs'](https://support.google.com/drive/answer/2409045?co=GENIE.Platform%3DDesktop&hl=en) history feature in which Google automatically saves your document and the changes that happened at a particular moment in time. However, Git allows you to control and decide yourself when changes are worth saving, hence making it much **more powerful and flexible**. Each change is saved together with a message that enables you or your collaborators to keep an overview of the history of the project.  
+
 
 ---
 
-# 1. Three conceptual areas
+<center><img src="../../images/version-control-meme.png"/></center>
+
+---
+
+Git is an open-source tool that keeps **track of the changes** made to your project files throughout their history. Your history is organized like a timeline, ordered in space and time. Keep that in mind, we will travel together during this course, using this analogy to make life easier at the same time as we have fun learning Git & GitHub. 
+
+So imagine git has an amazing **Time machine**, that will help us travel within a timeline (git project history) that we are going to build together. Each project where you initialize Git, to start a git repository will have its own timeline, and each point in time is one version you have  chosen to save. Now I'm going to help you through with our "DeLorean car" and together with Marty McFly and Dr. Emmett Brown we can sit tight and travel within along the space-time of your project. What I mean is , you will save many versions of your project, and by the end of this course you will be able to go back in previous versions if you so you wish. But be careful, the past can be visited but should no be changed!
+
+
+<center><img src="https://raw.githubusercontent.com/bpiereck/training-material_VIBTechTraining/master/topics/git-introduction/images/timeline-delorean.png"></center>
+
+# 2. Why should you version control? 
+- **Keeping track of changes** to your files done by yourself or your collaborators. At any moment you can exploit the history of the project to see who wrote what on a particular day. It even allows you to go back to a specific version or undo specific edits. 
+- **Synchronizes files between different people or infrastructures** (i.e. laptops, servers, ...), making it a powerful collaborating system. 
+- **Testing new code/changes**. Git can control multiple alternative versions of the same project in which you can make some changes and only when you or your collaborators are happy with them, you can include them in the main version.
+
+# 3. The difference between Git and GitHub
+There is a major difference between Git and GitHub though. Imagine Git is your repository, it will help you manage each projects versions independently. It also give you the power to go to your previous versions, like if you had a "time machine". GitHub, in other hands, is where you keep the **backup** of one or more **time-lines** (one or more projects history or "timeline"). In summary, git is software that works on your computer, whereas GitHub is a service for connecting and uploading/downloading files much like saving files in the cloud. There are some alternatives for Git ([link](https://www.g2.com/products/git/competitors/alternatives)) which will not be discussed in this course, and there are some for GitHub with Gitlab and Bitbucket as main competitors. These alternatives essentially share the same concepts and therefore we choose for the tools that enjoy the most traction in the community, **namely Git and GitHub**. In this course we will learn how Git works on your computer, giving us a proper understanding of its functionalities. Grasping these concepts is important if we want to use Git in other apps (e.g. in [Chapter 8](https://material.bits.vib.be/topics/git-introduction/tutorials/8_github_rstudio/tutorial.html) we will learn how GitHub and RStudio interact).
+
+
+# 4. Three conceptual areas
 Before diving in, let's have a look at how Git works. Git has 4 conceptual areas, and we are going to talk about 3 of them now. It's important to understand the three conceptual areas that **exist locally** when using Git on your computer: the **development area**, the **staging area** and the **local repository** that contains the `commits`, commits are changes you decide to save, like versions you want to keep of your project and that are ordered like in a **timeline**. We already know that we want to use Git for keeping track of changes in our files. To keep track of those changes we need to run through these conceptual areas: 
 1. first we edit a file on our computer (development area)
 2. then we tell Git about it (add it to the staging area)
@@ -43,7 +68,7 @@ Notice that the repository is not yet visible on [github.com](https://github.com
 During our adventure through Git & GitHub we'll use some specific glossary. Confused on what the meaning of all these new words are? Check out the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary).
 
 
-# 1. Routine usage
+# 5. Routine usage
 
 Before we start creating a rountine, let's think about a few concepts. I told you before that Git is a **time machine** that will travel within a time-line. Before we can do this we have to create our time-line. In this **time-line** each point in time repesentes changes you have done in your project (in the **developing area**) and you have decided to commit to it, or save it! However, before saving your changes you will organize everything that you want to change, doesn't matter if is one file/folder or several. 
 
@@ -87,7 +112,7 @@ Both options will work just fine and it depends on your preferences or maybe the
 
 
 
-# 2. Create a new repository from GitHub
+# 6. Create a new repository from GitHub
 
 Go to your GitHub homepage and click on the '+' icon in the upper right corner and select 'New repository'. The following screen will pop up.
 
@@ -154,11 +179,11 @@ with `<link>` being the link from GitHub that will look something like this for 
 {: .hands_on}
 ---
 
-# 3. Our first commit
+# 7. Our first commit
 Our local copy (clone) of the GitHub repository is now able to communicate with the GitHub repository. Every change within this repository is traceable, whether it is a new file or changes to a file. When we make changes in our local repository (e.g. create a new file), you have to add the file to the staging area first (`git add`) and then commit it (`git commit`) before pushing it (`git push`) to GitHub. 
 
 
-## 3.1 Staging
+## 7.1 Staging
 Let's add a new file to our folder on our computer locally. Download [this file](../../../../assets/files/git-introduction/plot2.R) and add it in the folder where also the `plot1.R` file is located. It contains some R code for plotting a new figure.  
 
 The first thing we will have to do now, is to stage the file into the staging area.  Remember that this is an intermediate area before committing the file to the repository. In a next section we will learn why this staging area can be useful. 
@@ -169,7 +194,7 @@ Now we have two options, depending on the situation:
 
 In this case, we can choose either of both options as we have only added one file. As this is a new file, `git add` will not only add it to the staging area, but it will also tell Git that it needs to keep track of changes that happen in this file. 
 
-## 3.2 Committing
+## 7.2 Committing
 Our new file is now in the staging area, ready to be committed. For this, we have to use the following command:
 ```
 git commit -m "some descriptive yet short message"
@@ -233,7 +258,7 @@ We added a parameter `-m` (message) to the command followed by a descriptive tex
 
 
 
-## 3.3 Push commits to GitHub
+## 7.3 Push commits to GitHub
 Recall that when we added the first file on GitHub (exercise 1), it was immediately committed and showed up right away in the GitHub repository. When we change or add files on our computer and commit them, GitHub doesn't know this yet. Hence, we have to do one final step: 
 ```
 git push
@@ -241,7 +266,7 @@ git push
 Have a look in the GitHub repository and verify that the new file is now in our repository. 
 
 
-## 3.4 Stage-commit-push
+## 7.4 Stage-commit-push
 We've learned how to make a GitHub repository, clone it to our computer, add a file, commit it and push it back to GitHub. This is everything you need to know for a routine usage of Git(Hub) on one of your projects. In order to grasp this concept a bit better, we'll repeat it by making changes on both files in the next exercise. 
 
 
@@ -269,14 +294,14 @@ We've learned how to make a GitHub repository, clone it to our computer, add a f
 {: .hands_on}
 ---
 
-## 3.5 Commit all tracked files at once
+## 7.5 Commit all tracked files at once
 One thing we haven't really said until now is that Git actually keeps track of the changes that you make to files as soon as you have told Git to do so. The first thing you have to do when you add a new file, is to tell Git to keep track of changes made in this file. If you do not do this, Git will know that there is a new file, but it will classify it as *untracked*. After adding it to the staging area a first time, it will always keep track of the changes in this file. 
 
 On the premise that Git is already keeping track of the files, you can simply do `git commit -a -m "some informative text"` in which `-a` stands for add all changes in all files to the staging area and commit them at once. 
 
 
 
-# 4. Create a new repository from your computer
+# 8. Create a new repository from your computer
 As discussed here above, you can also create a Git repository from your computer. This is especially useful when we already have a project with a bunch of files which we now want to start version controlling. The first thing that we will do is **initialize Git** on this folder. Alternatively, make a new folder which will contain the files of an imaginary project in case you don't have one yet. In Git Bash (Windows) or in your Terminal (Mac, Linux), move to the project folder with `cd` and use the following command: 
 
 ```
@@ -364,7 +389,7 @@ Before starting with the next exercise we also want to stress the importance of 
 ---
 
 
-# 5. The strength of the staging area
+# 9. The strength of the staging area
 Now you're probably wondering why it's useful to have that many steps to save a file (add, commit, push). We will give a practical example based on the figure below: 
 
 ---
@@ -378,7 +403,7 @@ Imagine that you're working on a project with multiple Python scripts and you're
 It's always better to have more commits; in case you want to remove part of your work in a later stage, or you want to start your work again from a specific commit. 
 
 
-# 6. Pull
+# 10. Pull
 Imagine that you change something in a file on GitHub, or upload a new file online via GitHub. We would want to include these changes or that file in the folder on our computer as well. For this we need to use the `pull` command to pull in the changes from GitHub. 
 
 Let's go back to our repository on GitHub. We will make a change in the repository on GitHub and then pull these changes back into the repository on our computer (i.e. the project folder on our computer). 
