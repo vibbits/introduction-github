@@ -62,7 +62,13 @@ Summary of what you might need:
 
 ## Learning Outcomes
 
-To be update soon ...
+-	Explain the difference between Git and GitHub and how each resource can help with version control and reproducibility;
+-	Understand the conceptual areas and how they are related to the routine of Git and GitHub for version control ;
+-	Use the commands from these resources to create, backup and inspect a history of developed versions of a project;
+-	To create and use Brancs and Forks to their own projects and to collaborations in order to solve problems while keeping the main project intact;
+-	To understand the importance and create the minimum documentation for a Git and GitHub project development such as README and .gitignore files;
+-	To develope and collaborate a project using Git and GitHub for versioning, reproducibility and backup;
+
 
 ## Complementary reading (Tutorials)
 1. [Introduction](https://github.com/vibbits/introduction-github/tree/master/tutorials/1_introduction)
