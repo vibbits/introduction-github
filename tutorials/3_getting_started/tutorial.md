@@ -18,36 +18,89 @@ contributors:
 
 ---
 
-# 1. Three conceptual areas
-Before diving in, let's have a look at how Git works. Git has 4 conceptual areas, and we are going to talk about 3 of them now. It's important to understand the three conceptual areas that **exist locally** when using Git on your computer: the **development area**, the **staging area** and the **local repository** that contains the `commits`, commits are changes you decide to save, like versions you want to keep of your project and that are ordered like in a **timeline**. We already know that we want to use Git for keeping track of changes in our files. To keep track of those changes we need to run through these conceptual areas: 
+# 3. Get started
+
+Git is organized in area, not all of them visible , but trust me THEY ARE THERE!
+Understandind this areas will make it easier to navigate in this new world.
+
+
+## Three conceptual areas
+
+Before diving in, let's have a look at how Git works. Git has actually 4 conceptual areas, and we are going to talk about 3 of them now.
+
+It's important to understand the three conceptual areas that **exist locally** when using Git on your computer: the **development area**, the **staging area** and the **local repository** that contains the `commits`, commits are changes you decide to save, tehrefore they represent the versionsthat you want to keep and they are ordered like in a **time-line**. 
+
+We already know that we want to use Git for keeping track of changes in our files. To keep track of those changes we need to navigate through these conceptual areas: 
 1. first we edit a file on our computer (development area)
 2. then we tell Git about it (add it to the staging area)
 3. lastly we commit those changes (commits repository).
 
 Let's have a closer look: 
 
-![Three conceptual areas](IMAGE JAMES TO UPDATE)
-
 1. The **development area** is where your coding or your project happens. Usually this is a folder with multiple files on your computer. Git will never change anything at this level, actually it won't really do anything. The only thing Git does is helping you managing this area by remembering that it needs to keep track of changes made in this folder or its files. However, for this we first need to initialize Git on this folder (only once in the beginning).  
 
 2. The **staging area** is an intermediate stage which assembles the files that contain changes. We can select one or multiple files with changes and stage them for a commit. This means that we're telling Git that we will want to save those changes. Hence, imagine that we want to save a file, we first have to add it to the staging area before we can commit it.  
 
-3. Files that are in the staging area are then **committed** to what we'll call the **local repository**. Once we have done that, we have stored a specific version of the files. Committing is a synonym for saving the files in the Git terminology, you can think of it as you are commited to a change you have made, and now you create one version of your file in your local repository. The repository with `commits`` contains a list of all the `commits`` that we have done in a project. It's neatly structured in a history log or timeline which we can travel to any point in time whenever we need. Notice that all of this is still happening on **our computer**. 
+3. Files that are in the staging area are then **committed** to what we'll call the **local repository**. Once we have done that, we have stored a specific version of the files. Committing is a synonym for saving the files in the Git terminology, you can think of it as you are commited to a change you have made, and now you create one version of your file in your local repository. The repository with `commits` contains a list of all the `commits` that we have done in a project. It's neatly structured in a history log or timeline which we can travel to any point in time whenever we need. Notice that all of this is still happening on **our computer**. 
 
+<center><img src="../../images/images_tutorial/conceptual_area_vib_color.svg" width="700"/></center>
 
-Here's an example. Let's assume that we're starting a new project. Usually that also means that you make a new folder on your computer where you will keep all the files related to the project. The first thing you have to do is to tell Git that it has to keep track of this folder.In this step, we're initializing Git on this folder. Now, you just made your first file. Even though it is stored on your computer, it's not automatically saved in Git. First, you'll have to add it to the staging area and afterwards you need to commit it to the repository. When we initialized Git on the folder, a new folder `.git/` was created which will store the different versions. That allows us to only have the latest version of the files visible on our computer and all of its histories in the `.git/` folder.   
-If we make a second file, the only thing we have to do is adding it to the staging area and then commit it. 
+Here's an example. Let's assume that we're starting a new project. Usually that also means that you make a new folder on your computer where you will keep all the files related to the project. By doing that you can start devloping what you plan, but **Git** is not yet helping you managing it.
 
-Notice that the repository is not yet visible on [github.com](https://github.com/). For this we would still need a fourth and last step, namely pushing the commits repository from your computer to GitHub. By pushing your commits repository, you will push the files within the project to GitHub. After this last step, your project and all of the files are accessible in a GitHub repository.
+> :books: **ACTIVITY**
+>
+> Before we move on, you will start working in your developing Area:
+>
+> Create a Markdown file called `dictionary_of_concepts.md` and write what you have learned so far:
+> Concepts like Git vs GitHub and the conceptual areas.
+>
+> Save it and come back here!
+>
+
+## My first commit
+
+You now have your folder and 1st file and you need to tell Git to start tracking changes and help you with version control. Using the terminal go to your folder, and inside the folder you are developing your project you can initialize your local Git repository. (This step should be done only one time)
+
+So here it is the first Git comman you need to learn:
+
+To initialize the local repo
+```
+$ git init
+```
+When we initialized Git on the folder, a new folder `.git/` was created which will store the different versions. That allows us to only have the latest version of the files visible on our computer and all the versions (points in your timeline) will be in the `.git/` folder.  This is a hidden directory and you should be very carreful!
+
+Once you have now **initialized** your local Git repository, meaning you have a Developing area and a Local repository. But you still have an empty local repository.
+
+<center><img src="../../images/images_tutorial/empty-timeline.svg" width="700"/></center>
+
+The next thing you need to do is to tell **Git** what it has to keep track of. Git will help you with management, but the main choice and planning is yours! 
+
+First, you'll have to `add` it to the staging area and afterwards you need to `commit` it to the repository. As showed in the image in the previous chapter. But let's try to do it together before I explain more about this two steps:
+
+```
+$ git add dictionary_of_concepts.md
+$ git commit -m "my 1st commit"
+```
+
+Now you have your first point in the timeline. If you have installed **Ungit** you can check by enabling the software in your developing area.
+But what you have is something like this:
+
+<center><img src="../../images/images_tutorial/frist_commit.svg" width="700"/></center>
+
+If we make a second file, the only thing we have to do is adding it to the staging area and then commit it again! Same is if you modify this document and you want to keep the new changes in your local repository.
+
+Notice that the repository is not yet visible on [github.com](https://github.com/). For this we would still need a fourth and last step, namely pushing the commits repository from your computer to GitHub. By pushing your commits repository, you will push the files within the project to GitHub. After this last step, your project and all of the files are accessible in a GitHub repository. But I'll tell you more about this step soon!
 
 During our adventure through Git & GitHub we'll use some specific glossary. Confused on what the meaning of all these new words are? Check out the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary).
 
 
-# 1. Routine usage
 
-Before we start creating a rountine, let's think about a few concepts. I told you before that Git is a **time machine** that will travel within a time-line. Before we can do this we have to create our time-line. In this **time-line** each point in time repesentes changes you have done in your project (in the **developing area**) and you have decided to commit to it, or save it! However, before saving your changes you will organize everything that you want to change, doesn't matter if is one file/folder or several. 
+####
+Our local copy (clone) of the GitHub repository is now able to communicate with the GitHub repository. Every change within this repository is traceable, whether it is a new file or changes to a file. When we make changes in our local repository (e.g. create a new file), you have to add the file to the staging area first (`git add`) and then commit it (`git commit`) before pushing it (`git push`) to GitHub. 
 
-By organizing I mean adding it to the **staging area**: `git add <file>`
+## Commiting, an important message
+
+
 
 The next step is commiting to your change, making sure they represent a point in time: `git commit -m <meaninful mesage> `. 
 The message is an important of it, every change you commit to, you write a message for your future self and other so they know:
@@ -59,6 +112,13 @@ The message is an important of it, every change you commit to, you write a messa
 
 In the end, the usual routine looks like this: 
 
+## Staging before saving
+
+By organizing I mean adding it to the **staging area**: `git add <file>`
+
+## How far can my Local Repository track changes?
+
+---
 
 ---
 
@@ -76,6 +136,7 @@ git add <file>
 git commit -m "some text that explains what has changed"
 git push
 ```
+## Connecting to GitHub
 
 That's all you need to know: `add-commit-push` x repeat. This repetition represent 90% of how we interact with Git & GitHub. 
 
@@ -87,7 +148,7 @@ Both options will work just fine and it depends on your preferences or maybe the
 
 
 
-# 2. Create a new repository from GitHub
+### Create a new repository from GitHub
 
 Go to your GitHub homepage and click on the '+' icon in the upper right corner and select 'New repository'. The following screen will pop up.
 
@@ -154,8 +215,7 @@ with `<link>` being the link from GitHub that will look something like this for 
 {: .hands_on}
 ---
 
-# 3. Our first commit
-Our local copy (clone) of the GitHub repository is now able to communicate with the GitHub repository. Every change within this repository is traceable, whether it is a new file or changes to a file. When we make changes in our local repository (e.g. create a new file), you have to add the file to the staging area first (`git add`) and then commit it (`git commit`) before pushing it (`git push`) to GitHub. 
+
 
 
 ## 3.1 Staging

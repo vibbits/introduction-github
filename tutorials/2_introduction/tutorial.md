@@ -22,7 +22,7 @@ Have you also been in a similar and recognizable situation as depicted below? Sa
 
 
 
-<center><img src="../../images/images_tutorial/version-control-meme.png"/></center>
+<center><img src="../../images/images_tutorial/version-control-meme.png" width="400"/></center>
 
 
 
@@ -31,7 +31,7 @@ Git is an open-source tool that keeps **track of the changes** made to your proj
 So imagine git has an amazing **Time machine**, that will help us travel within a timeline (git project history) that we are going to build together. Each project where you initialize Git, to start a git repository will have its own timeline, and each point in time is one version you have chosen to keep for future reference. Now I'm going to help you through with our "DeLorean car" and together with Marty McFly and Dr. Emmett Brown we can sit tight and travel within the space-time of your project. What I mean is , you will save many versions of your project, and by the end of this course you will be able to go back in previous versions if so you wish. But be careful, the past can be visited but should no be changed!
 
 
-<center><img src="https://raw.githubusercontent.com/bpiereck/training-material_VIBTechTraining/master/topics/git-introduction/images/timeline-delorean.png"></center>
+<center><img src="https://raw.githubusercontent.com/bpiereck/training-material_VIBTechTraining/master/topics/git-introduction/images/timeline-delorean.png" width="500"></center>
 
 
 
@@ -44,7 +44,7 @@ So imagine git has an amazing **Time machine**, that will help us travel within 
 ## The difference between Git and GitHub
 There is a major difference between Git and GitHub though. Imagine Git is your repository, it will help you manage each of your projects' versions, independently. It also give you the power to go to your previous versions, like if you had a "time machine". GitHub, in other hands, is where you keep the **backup** of one or more **time-lines** (one or more projects history or "time-line"). 
 
-<center><img src="../../images/images_tutorial/git-vs-github.svg"/></center>
+<center><img src="../../images/images_tutorial/git-vs-github.svg" width="500"/></center>
 
 
 In summary, git is software that works on your computer (locally), whereas GitHub is a service for connecting and uploading/downloading files much like saving files in the cloud (remotely). There are some alternatives for Git ([link](https://www.g2.com/products/git/competitors/alternatives)) which will not be discussed in this course, and there are some for GitHub with Gitlab and Bitbucket as main competitors. These alternatives essentially share the same concepts and therefore we choose for the tools that enjoy the most traction in the community, **namely Git and GitHub**. 
@@ -53,4 +53,4 @@ In this course we will learn how Git works on your computer, giving us a proper 
 
 ---
 
-Let's go to the [next session](https://material.bits.vib.be/topics/git-introduction/tutorials/2_configurations/tutorial.html)!
+Let's go to the [next session](https://material.bits.vib.be/topics/git-introduction/tutorials/3_getting_started/tutorial.html)!
