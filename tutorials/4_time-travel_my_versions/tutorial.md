@@ -156,6 +156,8 @@ Whith this many versions, if you want to compare them, and maybe recover somethi
 
 I'll introduce you two way to do it.
 
+<center><img src="https://tu-dresden.de/forschung-transfer/ressourcen/bilder/kontaktstelle-forschungsdaten/illustrationen/ProjectHistory.jpg/@@images/f9becf6b-dd71-4f1c-abd8-c7138b35e2c4.jpeg" width="400"/></center>
+
 ### Git Show
 
 You can ask git to `show` you the content of two files, and it will highlight some changes for you and also give you the messages of each commit for a reference. If you just want to see the previous version you will use it as you see below:

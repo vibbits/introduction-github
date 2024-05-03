@@ -20,7 +20,15 @@ contributors:
 
 ####
 
-need a fourth and last step, namely pushing the commits repository from your computer to GitHub. By pushing your commits repository, you will push the files within the project to GitHub. After this last step, your project and all of the files are accessible in a GitHub repository. But I'll tell you more about this step soon!
+We need to talk about the fourth and last conceptual area!
+
+Can you name it?
+
+The **Remote** repository, in this course represented by **GitHub**, is the last conceptual area. So far we have created a timeline that only existis in our computer. But If we want to collaborate that will be a complicated task, if your computer crashes all the versions are lost. So The remote repository is where you are going to keep your back up. You can also do some developing from there, I'll also show you this trick in the end of this chapter. But first, let's stick to the terminal a little longer. 
+
+<center><img src="../../images/images_tutorial/4TH_conceptual_area.svg" width=1000/></center>
+
+, namely pushing the commits repository from your computer to GitHub. By pushing your commits repository, you will push the files within the project to GitHub. After this last step, your project and all of the files are accessible in a GitHub repository. But I'll tell you more about this step soon!
 
 During our adventure through Git & GitHub we'll use some specific glossary. Confused on what the meaning of all these new words are? Check out the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary).
 Our local copy (clone) of the GitHub repository is now able to communicate with the GitHub repository. Every change within this repository is traceable, whether it is a new file or changes to a file. When we make changes in our local repository (e.g. create a new file), you have to add the file to the staging area first (`git add`) and then commit it (`git commit`) before pushing it (`git push`) to GitHub. 
