@@ -1,14 +1,14 @@
 ---
 layout: tutorial_hands_on
 
-title: 1 Introduction
+title: 2 Introduction
 zenodo_link: ''
 questions:
 - Why should I version control and how to get started? 
 - What is the difference between Git & GitHub?
 objectives:
 - Understand why version control is essential in research projects
-- Explain how Git's conceptual areas interact
+- Intorduce how git and GitHub can help this process
 time_estimation: 20m
 contributors:
 - tmuylder

@@ -4,6 +4,7 @@ layout: tutorial_hands_on
 title: 3 Getting started
 zenodo_link: ''
 questions:
+- Undestand the 3 conceptual areas in the local computer
 - How to initialize a version controlled repository?
 - How to make your first commits to that repository? 
 - How does Git work in its essence? 
@@ -155,15 +156,32 @@ In the end, the usual Git routine looks like this:
 <center><img src="../../images/images_tutorial/conceptual_area_vib_color.svg" width="700" /></center>
 
 ## Staging before saving
-Maybe at this point you are wondering why we need to `git add` before we do `git commit`, and not go straght foward to `commit` ?
+Maybe, at this point, you are wondering why we need to  use an intermediate area (`git add`- staging) before we do `git commit`, and not go straight foward to do a `commit` ?
 
 So far we have worked with only one file, but in a real life project you will most likely have several files and subfolders with all sorts of things, codes, data, images, documentation, etc. So before you commit you need to organize your files. Since we are talking about a time-line, let's think of history classes and history books. You have historical facts that are related being described along the same chapter, and as you move to different blocks you might realize different contexts. 
 
+We will give a practical example based on the figure below: 
+
+---
+
+<center><img src="../../images/images_tutorial/staging_area.png" /></center>
+
+---
+
+Imagine that you're working on a project with multiple Python scripts and you're working on all of them. In this case your folder in your development area contains the files  `scriptA.py`, `scriptB.py` and `scriptC.py`. The changes that you made in script A and script C are somehow related, but script B is not. It's good practice to make commits in which changes that are related to each other are bundled. Hence, in this case we want to make one commit with the changes from file A and C. Now we can simply add scripts A and C to the staging area and commit it. The changes in script B will remain unsaved until we commit the changes in a separate commit. 
+
+It's always better to have more commits; in case you want to remove part of your work in a later stage, or you want to start your work again from a specific commit. 
 So organizing your commits, means adding together in to the **staging area** (`git add <file>`) things that make sense together, so one unique message (`git commit "meaninful mesage"`) can make sense. 
 
-Defining the balance is something only you and your collaborator can do. But think of it like this, if you have several commits that are related you might have very repetitive messages and such a long time-line, that finding back what you want will be too chanllanging. In other hands, if you put too much and take too long to make a new commit, you might end p with very vague messages that will not help you find what you want either. 
+Now we have a few ways to stage more than one file, depending on the situation:
+  1. `git add <file>` : will add a **specific** file to the staging area
+  2. `git add .` : will add **all** the changed or new files to the staging area
+  3. `git add *.py` : will add all files that have a '.py' extension
+  4. `git add <file1> <file2> <file3>` : will add all listed files
 
-Remember the messages are where you describe 
+Defining the balance of how many times and what to stage and commit is something only you and your collaborator can do. But think of it like this, if you have several commits that are related you might end up with very repetitive messages and such a long time-line. As consequence finding back what you want will be too chanllanging. In other hands, if you put too much in one commit or just wait very long and commit it all at once, you might end up with very vague messages that will not help you find what you want either. 
+
+Remember the messages you must think in yuor commit to plan your staging area:
 
 * Why was it changed?
 * How this adresses the issue?
@@ -179,6 +197,10 @@ Another way to look to it, is like a llibrarian:
 You have many documents, you classify them, put them in the cart (your staging area) and send them with one single note (your commit message) to be storage in the same session in the shelves (your point in time).
 
 I hope it is making as much sense for you as it does for me now!
+
+
+# 5. The strength of the staging area
+
 
 ---
 
@@ -240,7 +262,6 @@ Well, I don't have a good answer for that, other than: AVOID CREATING TRUCTURES 
 
 
 <center><img src="../../images/images_tutorial/first-command-review.svg" /></center>
-
 
 
 ---

@@ -6,6 +6,7 @@ zenodo_link: ''
 questions:
 - How to get an overview of the status of the repository?
 - How to access the history of all the commits that have been done?
+- How to compare two different commits
 objectives:
 - Keep track of the status of the repository and its files
 - Understand the suggestions that Git makes
