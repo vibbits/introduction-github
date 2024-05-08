@@ -193,7 +193,7 @@ Save the changes by committing them as depicted here below:
 
 ---
 
-<center><img src="../../images/commitReadme.PNG"/></center>
+<center><img src="../../images/images_tutorial/commitReadme.PNG"/></center>
 
 ---
 
@@ -203,6 +203,14 @@ git pull
 ```
 
 Open the file `README.md` and check whether the changes have merged in.  
+
+
+# Summary of commands
+
+
+<center><img src="../../images/images_tutorial/cloning_fromGitHub.svg" width=900/></center>
+
+<center><img src="../../images/images_tutorial/review_git_to_github.svg" width=900/></center>
 
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: tutorial_hands_on
 
-title: 7 Gitignore
+title: 7 Gitignore and README
 zenodo_link: ''
 questions:
 - How to exclude certain files from uploading to GitHub
@@ -12,8 +12,38 @@ contributors:
 - tmuylder
 ---
 
-# 1. Introduction
-What if we have files that we do not want Git to track for us, like backup files or intermediate files created during data analysis? Remember that GitHub is not your next cloud storage infrastructure. Hence, (big) data should not be uploaded on GitHub. In fact, there's a strict file size limit of 100MB so you won't even be able to do so. 
+# README please
+
+The README file, was commented before, but this is a very important file, you can have it without any extension `READE` or, what I advise is that you have a markdown version `README.md`, this way you can have a nicelly formated file.
+
+But What is this file about?
+
+This file is meant to have a description of your repository, it can be a presentation of a project, tool or training material for example. If you are describing a rool, maybe you also want to include the how to install and use it and links for testing data. For a training material, such as this, usually description of the course for students and other trainers.
+
+It will be the first thing people see when they visit your GitHub page, and it will help understanding what they can find and how they can use this repository. See some examples in the images bellow:
+
+--- 
+example 1: 
+A short description of a Containers workshop, with some links related to the course.
+<center><img src="../../images/images_tutorial/readme_example1.png" width=500 /></center>
+
+---
+example 2: 
+Repository of VIB RDM (_reseach data management_) course material.
+You can find the authors, liscence and description
+<center><img src="../../images/images_tutorial/readme_example2.png" width=500 /></center>
+
+---
+example 3:
+[Ungit](https://github.com/FredrikNoren/ungit), a tool to help you visualize the Git working tree and bringing user friendliness.
+You have an explanantion, functions, intallation and how to use.
+<center><img src="../../images/images_tutorial/readme_example3.png" /></center>
+
+---
+
+# Telling git what to Ignore
+
+What if we have files that we do not want Git to track for us, like backup files or intermediate files created during data analysis? Remember that GitHub is **not** your next cloud storage infrastructure. Hence, **(big) data** should **not** be uploaded on GitHub. In fact, there's a strict file size limit of 100MB so you won't even be able to do so. 
 
 Regardless of the above, it is often useful if your data is in the same projectfolder. And you can't help the fact that Jupyter Notebooks makes intermediate checkpoints (.ipynb_checkpoints) in the same folder of the notebook. 
 
@@ -66,7 +96,7 @@ It's always good to think this through and manually add the files or folders tha
 
 --- 
 
-<center><img src="../../images/gitignore.PNG" /></center>
+<center><img src="../../images/images_tutorial/gitignore.PNG" /></center>
 
 ---
 
