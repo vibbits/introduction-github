@@ -39,6 +39,6 @@
 ---
 [<img src="https://raw.githubusercontent.com/vibbits/introduction-github/39cd4a64d2e4ad573cba1fc8283ad2b25b755ab7/images/git_aliases.svg" width="200"/>](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/10_Git_aliases/tutorial.md#1)
 
-[11. GitHub & Rstudio] (https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/11_github_rstudios/tutorial.md#1)
+[11. GitHub & Rstudio](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/11_github_rstudios/tutorial.md#1)
 ---
 [<img src="https://raw.githubusercontent.com/vibbits/introduction-github/master/images/images_tutorial/rstudio-1.PNG" width="200"/>](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/11_github_rstudios/tutorial.md#1)
