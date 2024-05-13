@@ -109,11 +109,15 @@ Now that you have your terminal, you will need to generate an SSH key:
 
 Copy past this line in your terminal, and replace it with your email
 
-` ssh-keygen -t ed25519 -C "your_email@example.com" `
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
 
 Alternativelly, if this doesn't work. You can try this (replace your email):
 
-` ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
 
 > IMPOTANTE:
 > When you are requeste to name the file, just press `ENTER` without changing anything.
@@ -143,11 +147,15 @@ Next, in  your terminal, you will need to generate an SSH key:
 
 Copy past this line in your terminal, and replace it with your email
 
-` ssh-keygen -t ed25519 -C "your_email@example.com" `
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
 
 Alternativelly, if this doesn't work. You can try this (replace your email):
 
-` ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
 
 > IMPOTANTE:
 > When you are requeste to name the file, just press `ENTER` without changing anything.
