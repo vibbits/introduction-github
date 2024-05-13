@@ -15,7 +15,7 @@ Git is a free and open source distributed version-control system designed to mai
 
 ## Material license
 
-<img src="https://raw.githubusercontent.com/vibbits/introduction-github/master/images/logos/CC-by.png" title="" alt="" width="143">
+[<img src="https://raw.githubusercontent.com/vibbits/introduction-github/master/images/logos/CC-by.png" title="" alt="" width="143">](https://creativecommons.org/licenses/by/4.0/)
 
 [**CC-BY**](https://creativecommons.org/licenses/by/4.0/)
 
