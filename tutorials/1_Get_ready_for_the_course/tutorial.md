@@ -106,7 +106,6 @@ Enamble **WSL** in your computer, that is the best way to use the terminal, sinc
 You also need to download and install [GitBash](https://git-scm.com/downloads), to use git in your computer.
 
 Now that you have your terminal, you will need to generate an SSH key:
-
 Copy past this line in your terminal, and replace it with your email
 
 ```
@@ -186,18 +185,21 @@ in which we replace `<editor>` with `vim`, `notepad`, `emacs`, `atom`, `sublime`
 
 You can also use:
 **VScode**
+---
 
 ```
-Git config --global core.editor "code --wait"
+Git config --global core.editor 'code --wait' 
 ```
 
 **Sublime Text**
+---
 
 ```
 git config --global core.editor "'C:/Program Files (x86)/sublime text 3/subl.exe' -w"
 ```
 
 **NotePad ++**
+---
 
 ```
 git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
