@@ -93,7 +93,6 @@ $ git checkout -b <new-branch-name>
 >> remotes/origin/main
 >> remotes/origin/new-feature
 >> ```
->>
 >> In the output you can see the first branch is our local *master* in which we are currently working (as denoted by the asterisk \*). The three others, in this example, relate to the branches that exist **remotely** on GitHub. If we want to work on the branch *new-feature* we will have to import it first with: `git checkout new-feature`. Git will understand that there is a remote branch with the same name and you want to work on this one. 
 >> 
 
@@ -145,6 +144,8 @@ Eventually you do `git checkout new-feature`, and you refresh your developing ar
 So do not freak-out if you `ls` your folder or open your file explorer and things are not there, probably they are just in a different branch!
 
 ## Merging branches 
+
+<center><img src="../../images/images_tutorial/merging_new_branch.svg" width="100"/></center>
 
 ### Merging Locally
 

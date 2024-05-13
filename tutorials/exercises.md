@@ -53,3 +53,29 @@
 >
 {: .hands_on}
 ---
+
+---
+
+> ### {% icon hands_on %} Exercise 7
+>
+> Merge upstream changes in your forked repository. This approach is useful if you are working on a project that is prone to lots of changes and you need to keep up to date. 
+> Note: This exercise is only possible to be performed if the repository `vibbits/fork-repository` has changed after you forked it.  
+> 
+>    > <details markdown="1">
+>    > <summary>{% icon solution %} Solution
+>    > </summary>
+>    > You need to merge any upstream changes into your version, and you can do this with a pull request on GitHub too. This time though you will need to switch the bases of the  comparison around, because the changes will be coming from the upstream version to yours. First find the following notification in your repository and click on pull request:  
+>    > <center><img src="../../images/Exercise-fork-1.PNG" /></center>
+>    > In my case, the order is not how it's supposed to be and the message reads: "There isn't anything to compare. vibbits:main is up to date with all commits from tmuylder:main.". Click on *switching the base* in order to insert the changes from the upstream in your forked repository.  
+>    > 
+>    > A message similar to the following will allow to create a pull request and subsequently merge the changes into your forked repository. 
+>    > 
+>    > 
+>    > <center><img src="../../images/Exercise-fork-2.PNG" /></center>
+>    > 
+>    > 
+>    > </details>
+> 
+{: .hands_on}
+
+---
