@@ -37,7 +37,7 @@ Let's start by making a new project (File > New project...). The following scree
 
 ---
 
-<center><img src="../../images/rstudio-1.PNG" /></center>
+<center><img src="../../images/images_tutorial/rstudio-1.PNG" /></center>
 
 ---
 
@@ -51,7 +51,7 @@ Given the situation that there is a folder on our computer, created during this 
 
 ---
 
-<center><img src="../../images/rstudio-2.PNG" /></center>
+<center><img src="../../images/images_tutorial/rstudio-2.PNG" /></center>
 
 ---
 
@@ -68,7 +68,7 @@ A third option assumes that you already have an R/Rstudio project. Click on *Too
 
 ---
 
-<center><img src="../../images/rstudio-7.PNG" /></center>
+<center><img src="../../images/images_tutorial/rstudio-7.PNG" /></center>
 
 ---
 
@@ -76,7 +76,7 @@ This approach will initialize Git on the project. As discussed in chapter 3, thi
 
 ---
 
-<center><img src="../../images/rstudio-8-1.PNG" /></center>
+<center><img src="../../images/images_tutorial/rstudio-8-1.PNG" /></center>
 
 ---
 
@@ -84,7 +84,7 @@ Click on *add remote* in the new screen, paste the GitHub link and add the name 
 
 ---
 
-<center><img src="../../images/rstudio-9.PNG" /></center>
+<center><img src="../../images/images_tutorial/rstudio-9.PNG" /></center>
 
 ---
 
@@ -92,7 +92,7 @@ Finally, add the name of the new branch *main* and hit create. Select *overwrite
 
 ---
 
-<center><img src="../../images/rstudio-8-1.PNG" /></center>
+<center><img src="../../images/images_tutorial/rstudio-8-1.PNG" /></center>
 
 ---
 
@@ -110,7 +110,7 @@ By initializing Git on an Rstudio project, there appears a *Git* tab in the uppe
 
 ---
 
-<center><img src="../../images/rstudio-3.PNG" /></center>
+<center><img src="../../images/images_tutorial/rstudio-3.PNG" /></center>
 
 ---
 
@@ -121,7 +121,7 @@ Recall the routine usage: *stage-commit-push*. Staging changes in Rstudio is don
 
 --- 
 
-<center><img src="../../images/rstudio-4.PNG" /></center>
+<center><img src="../../images/images_tutorial/rstudio-4.PNG" /></center>
 
 ---
 
@@ -129,7 +129,7 @@ Subsequently, click on commit and find a similar screen:
 
 --- 
 
-<center><img src="../../images/rstudio-5.PNG" /></center>
+<center><img src="../../images/images_tutorial/rstudio-5.PNG" /></center>
 
 ---
 
