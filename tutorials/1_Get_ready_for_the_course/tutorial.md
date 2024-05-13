@@ -108,9 +108,11 @@ You also need to download and install [GitBash](https://git-scm.com/downloads), 
 Now that you have your terminal, you will need to generate an SSH key:
 
 Copy past this line in your terminal, and replace it with your email
+
 ` ssh-keygen -t ed25519 -C "your_email@example.com" `
 
 Alternativelly, if this doesn't work. You can try this (replace your email):
+
 ` ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 
 > IMPOTANTE:
@@ -140,9 +142,11 @@ Git is native on most MAC & Linux systems. Try it on your terminal, otherwise in
 Next, in  your terminal, you will need to generate an SSH key:
 
 Copy past this line in your terminal, and replace it with your email
+
 ` ssh-keygen -t ed25519 -C "your_email@example.com" `
 
 Alternativelly, if this doesn't work. You can try this (replace your email):
+
 ` ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 
 > IMPOTANTE:
@@ -169,18 +173,24 @@ Another thing we can edit in the configuration file is the editor. An editor is 
 ```
 git config --global core.editor <editor>
 ```
+
 in which we replace `<editor>` with `vim`, `notepad`, `emacs`, `atom`, `sublime` or any other editor you prefer.  
 
 You can also use:
 **VScode**
+
 ```
 Git config --global core.editor "code --wait"
 ```
+
 **Sublime Text**
+
 ```
 git config --global core.editor "'C:/Program Files (x86)/sublime text 3/subl.exe' -w"
 ```
+
 **NotePad ++**
+
 ```
 git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 ```
