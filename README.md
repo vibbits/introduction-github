@@ -65,11 +65,5 @@ Summary of what you might need:
 To be update soon ...
 
 ## Complementary reading (Tutorials)
-1. [Introduction](https://github.com/vibbits/introduction-github/tree/master/tutorials/1_introduction)
-2. [Configurations & Instaling](https://github.com/vibbits/introduction-github/tree/master/tutorials/2_configurations_instaling)
-3. [Getting Started](https://github.com/vibbits/introduction-github/tree/master/tutorials/3_getting_started)
-4. [History & Status](https://github.com/vibbits/introduction-github/tree/master/tutorials/4_history_status)
-5. [Branches](https://github.com/vibbits/introduction-github/tree/master/tutorials/5_branches)
-6. [Forks](https://github.com/vibbits/introduction-github/tree/master/tutorials/6_forks)
-7. [.gitignore](https://github.com/vibbits/introduction-github/tree/master/tutorials/7_gitignore)
-8. [GitHub and Rstudio](https://github.com/vibbits/introduction-github/tree/master/tutorials/8_github_rstudio)
+Check 10 chapter with [complementary reading](https://github.com/vibbits/introduction-github/blob/master/tutorials/Git_modules.md).
+You will review what you saw in the course and get some extra tips and information, such as using Rstudio on GitHub.
