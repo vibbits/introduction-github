@@ -1,6 +1,6 @@
 # List of chapters
 
-<!-- style="color: orange;" --> 1. [Get Ready for the course](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/1_Get_ready_for_the_course/tutorial.md#1)
+<!-- style="color: red" --> 1. [Get Ready for the course](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/1_Get_ready_for_the_course/tutorial.md#1)
 ---
 [<img src="https://raw.githubusercontent.com/vibbits/introduction-github/192d9178ab16af65b9f743d096ce3e9c0ed60133/images/help!.svg" width="200"/>](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/1_Get_ready_for_the_course/tutorial.md#1)
 
@@ -29,7 +29,6 @@
 [<img src="https://raw.githubusercontent.com/vibbits/introduction-github/master/images/benevocats.png" width="200"/>](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/7_collaborating_GitHub/tutorial.md#1)
 
 8. [Branchs](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/8_branchs/tutorial.md#1)
-
 ---
 [<img src="https://raw.githubusercontent.com/vibbits/introduction-github/548d204f4613b52f5fb95e80168c34baa69f0286/images/branch_basic.svg" width="130"/>](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/8_branchs/tutorial.md#1)
 
