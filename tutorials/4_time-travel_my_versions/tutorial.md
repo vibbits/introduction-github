@@ -253,7 +253,7 @@ When the output of git log is too long to fit in your screen, git uses a program
 
 ---
 
-Let's continue with the [next session](https://material.bits.vib.be/topics/git-introduction/tutorials/5_branches/tutorial.html)!
+Let's continue with the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/5_Conncting_2_GitHub/tutorial.md#1)!
 
 
 

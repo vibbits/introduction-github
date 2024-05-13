@@ -21,4 +21,4 @@ In this course we are not using any aliases, but you can create your own or use 
 
 ---
 
-Let's go to the [next session](https://material.bits.vib.be/topics/git-introduction/tutorials/3_first_commit/tutorial.html)!
+Let's go to the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/11_github_rstudios/tutorial.md#1)!

@@ -212,4 +212,4 @@ Open the file `README.md` and check whether the changes have merged in.
 
 ---
 
-Let's go to the [next session](https://material.bits.vib.be/topics/git-introduction/tutorials/4_history_status/tutorial.html)!
+Let's go to the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/6_gitignore&README/tutorial.md#1)!

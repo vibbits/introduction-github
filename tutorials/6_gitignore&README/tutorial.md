@@ -100,4 +100,4 @@ It's always good to think this through and manually add the files or folders tha
 
 ---
 
-Let's continue with the [next session](https://material.bits.vib.be/topics/git-introduction/tutorials/8_github_rstudio/tutorial.html)!
+Let's continue with the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/7_collaborating_GitHub/tutorial.md#1)!

@@ -111,6 +111,6 @@ To briefly summarize, the steps that we took were: *fork > clone(> branch > edit
 What if the upstream repository changed while you were working on your local repository? In this case a pull request should be done in which the receiving branch is your forked repository. Hence, the order of the branches as depicted in the figure above would be swapped.    
 
 
- 
+ --
 
-Let's continue with the [next session](https://material.bits.vib.be/topics/git-introduction/tutorials/7_gitignore/tutorial.html)!
+Let's continue with the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/10_Git_aliases/tutorial.md#1)!

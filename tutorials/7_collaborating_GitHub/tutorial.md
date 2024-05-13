@@ -125,4 +125,4 @@ $ git push
 
 ---
 
-Let's continue with the [next session](https://material.bits.vib.be/topics/git-introduction/tutorials/8_github_rstudio/tutorial.html)!
+Let's continue with the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/8_branchs/tutorial.md#1)!

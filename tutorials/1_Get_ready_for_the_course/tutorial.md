@@ -246,4 +246,4 @@ Ungit
 
 ---
 
-Let's go to the [next session](https://material.bits.vib.be/topics/git-introduction/tutorials/2_introduction/tutorial.html)!
+Let's go to the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/2_introduction/tutorial.md#1)!
