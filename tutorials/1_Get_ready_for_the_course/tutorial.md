@@ -17,7 +17,7 @@ contributors:
 
 # Get ready for the course
 
-<center><img src="../../images/images_tutorial/overwelmed_people_freepick.svg" /></center>
+<center><img src="../../images/images_tutorial/overwelmed_people_freepick.svg" width="500"/></center>
 
 ## Get Yourself Ready
 
