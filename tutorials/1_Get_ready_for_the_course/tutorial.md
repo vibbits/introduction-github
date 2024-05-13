@@ -107,12 +107,14 @@ You also need to download and install [GitBash](https://git-scm.com/downloads), 
 
 Now that you have your terminal, you will need to generate an SSH key:
 Copy past this line in your terminal, and replace it with your email
+---
 
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 Alternativelly, if this doesn't work. You can try this (replace your email):
+---
 
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -145,12 +147,14 @@ Git is native on most MAC & Linux systems. Try it on your terminal, otherwise in
 Next, in  your terminal, you will need to generate an SSH key:
 
 Copy past this line in your terminal, and replace it with your email
+---
 
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 Alternativelly, if this doesn't work. You can try this (replace your email):
+---
 
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -177,6 +181,8 @@ Another option is is [VScode](https://code.visualstudio.com/Download), you can u
 
 Another thing we can edit in the configuration file is the editor. An editor is the program we want Git to use when we have to add a message or solve conflicts. The automatic editor is **VI** ([how to use VI edito](https://www.cs.colostate.edu/helpdocs/vi.html)). If you decide to choose a different editor, see bellow:
 
+---
+
 ```
 git config --global core.editor <editor>
 ```
@@ -184,6 +190,7 @@ git config --global core.editor <editor>
 in which we replace `<editor>` with `vim`, `notepad`, `emacs`, `atom`, `sublime` or any other editor you prefer.  
 
 You can also use:
+
 **VScode**
 ---
 
@@ -219,14 +226,18 @@ Check the summary bellow to install Ungit:
 
 3. Copy past the following line in the terminal and press “enter”
 
-   `npm install -g ungit`
+```
+npm install -g ungit
+```
 
 **This should be enough to install it.**
 
 4.  To initialize Ungit, type in the terminal the name of the software, as below
     > P.S.: For windows you can you CMD or GitBash to initialize the tool.
 
-   `Ungit`
+```
+Ungit
+``` 
 
     It will open as a webpage, but actually it is a “***magic window***” for your computer content.
 
