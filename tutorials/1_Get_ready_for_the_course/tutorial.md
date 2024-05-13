@@ -19,9 +19,15 @@ contributors:
 
 <center><img src="../../images/images_tutorial/overwelmed_people_freepick.svg" width="500"/></center>
 
+Do not worry!
+Try to follow this steps, this should take around 30min to 1h.
+If you get in trouble just contact your trainer by answering the e-mail.
+
 ## Get Yourself Ready
 
-For this course we will explore version controlling in a mixture of [Git](https://git-scm.com/) via the command-line and [GitHub](https://github.com/). The former requires some basic understanding of the Linux command line. If you're not familiar with Linux command line, you should have a look at the materials  this [crash course](https://elearning.vib.be/courses/linux/), and you can complementarily check at the [Linux Survival course](https://linuxsurvival.com/linux-directory-structure/) and this material [here](https://material.bits.vib.be/topics/linux/). 
+For this course we will explore version controlling in a mixture of [Git](https://git-scm.com/) via the **command-line** and [GitHub](https://github.com/). The former requires some basic understanding of the Linux command line. If you're not familiar with Linux command line, you **MUST** have a look at the materials in this [crash course](https://elearning.vib.be/courses/linux/), in this 4 parts course, you need only the first 3 parts to folow the Git & GitHub course.Complementarily check at the [Linux Survival course](https://linuxsurvival.com/linux-directory-structure/) and this material [here](https://material.bits.vib.be/topics/linux/). 
+
+For this step you might need to invest a few hours. Some students without command line experience reported about 4h of investment. If you have some experience it might be a short review.
 
 
 ## 1st things 1st, Get an account
