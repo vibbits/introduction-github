@@ -97,5 +97,5 @@ Summary of what you might need:
 
 ## Complementary reading (Tutorials)
 
-Check some [**chapters**](https://github.com/vibbits/introduction-github/blob/master/tutorials/Git_modules.md) with complementary reading.
+Check some [**chapters**](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/Git_modules.md#1) with complementary reading.
 You will *review* what you saw in the course and get *some extra* tips and information, such as using Rstudio on GitHub.
