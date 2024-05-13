@@ -1,6 +1,6 @@
 # List of chapters
 
-<!-- style="color: red" --> 1. [Get Ready for the course](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/1_Get_ready_for_the_course/tutorial.md#1)
+ 1. <!-- style="color: green" --> [Get Ready for the course](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/1_Get_ready_for_the_course/tutorial.md#1)
 ---
 [<img src="https://raw.githubusercontent.com/vibbits/introduction-github/192d9178ab16af65b9f743d096ce3e9c0ed60133/images/help!.svg" width="200"/>](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/1_Get_ready_for_the_course/tutorial.md#1)
 
