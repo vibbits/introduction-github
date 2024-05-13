@@ -20,7 +20,9 @@ contributors:
 
 So, we have been working with one unique and linear time-line. The idea of branching is that we can have parallel time-lines, meaning we create a copy of the project in which we can add a new feature, teste different solution for the same problem, work in parallel with our collaboratorsg, etc. 
 
-Each branch is a completely separate version of your project and lives next to your original version. In fact, it's been originated from one of your commits and now will evolve independtly. If the `new-feature` is working properly or the `new-branch` has achieved a good developing point we can merge it back into the project so all updates start to co-existe in the same timeline again. This is a great strategy of testing new changes in some code when you're not sure whether it will work, and in the meanwhile not messing up the code that you already have, or even a wonderful way of collaborating without having frequent conflicts to solve.
+Each branch is a completely separate version of your project and lives next to your original version. In fact, it's been originated from one of your commits and now will evolve independtly.
+
+If a new-feature is working properly on the `new-branch`, or whatever you are developing has achieved a good developing point, we can merge it back into the project so all updates start to co-existe in the same timeline again. This is a great strategy of testing new changes in some code when you're not sure whether it will work, and in the meanwhile not messing up the code that you already have, or even a wonderful way of collaborating without having frequent conflicts to solve.
 
 
 
@@ -28,7 +30,9 @@ Each branch is a completely separate version of your project and lives next to y
 
 
 
-The original repository, called the *master* branch, has a green commit is indicating the moment the new branch was cerated (left image). You can name you new branch as you wish (e.g. *new-feature*), but be mindful so you can remember what was being developed in that branch. In the following image (on hte right), after some work has been done in both branchs, the green commit is now pointing to the moment these two were merged. In this example. at the moment the new branch is created, both *master* and *new* branchs share 5 commits in its history (`git log`). From that point on, until they are merged again, they evolve completly independet from each other.
+In the image you can see that the original repository, called *master* branch, has a green commit is indicating the moment the new branch was cerated (left image). You can name you new branch as you wish (e.g. *new-feature*), but be mindful so you can remember what was being developed in that branch.
+
+In the following image (on the right), after some work has been done in both branchs, the green commit is now pointing to the moment these two were merged. In this example. at the moment the new branch is created, both *master* and *new* branchs share 5 commits in its history [ `git log` ]. From that point on, until they are merged again, they evolve completly independet from each other.
 
 ## Branching
 
@@ -36,9 +40,10 @@ There are two ways of branching: (1) locally or on the (2) GitHub website.
 
 It is good to know that a repository can have numerous branches. Branches are ways of organising work on a project: you can have a branch for a new feature, for trying out something new, for exploring an issue - anything at all.
 
-It’s a good practice to create a new branch for every new bit of work you start doing, even if it’s a very small one. Branches are of course disposable, you can always remove them. 
+It’s a good practice to create a new branch for every new bit of work you start doing, even if it’s a very small one. Branches are of course disposable, you can always remove them later. 
 
 Before you start making branches for the upcoming activities, push all the new changes you have:
+
 ```
 $ git add *
 $ git commit -m 'message'
@@ -47,17 +52,22 @@ $ git push
 
 **SO, NOW, HOW CAN I START BRANCHING?**
 
-### 1. Branching locally
+### Branching locally
 
- 
-There is always an indication in the Terminal of which branch we are in (i.e. *master*). And if you can't see you can always use `git status` to check the branch among other things. It is time to start branching:
+There is always an indication in the Terminal of which branch we are in (i.e. *master*). And if you can't see you can always use `git status` to check the branch among other things. 
+It is time to start branching:
 
 ```
 $ git branch <name-new-branch>
 ```
 
 This command will create a nre branch, but not move you inside it, so if you imediatelly start editing, you are still working on *master*.
-Here is where our time-machine will start helping us travel in space and time. Get inside of _de Lorean_, tighten your sitbelts and let's move into our new branch:
+Here is where our time-machine will start helping us travel in space and time.
+
+<center><img src="../../images/images_tutorial/DeLorean_openDoor.svg" width="300"/></center>
+
+Get inside of _de Lorean_, tighten your sitbelts and let's move into our new branch:
+---
 
 ```
 $ git checkout <branch-name>
@@ -71,24 +81,24 @@ if you want to create and imediately move to your new branch in one step you can
 $ git checkout -b <new-branch-name>
 ```
 
-**Note** that if you use `git checkout -b <name>` and use a non-unique name, meaning you giving the same name to a branch for the second time in the same repository, you would have created two branchs with the same maybe one in your local repository and another in your remote repository. This is error prone and will lead to problems! Hence, it is really important to use unique names, having local and remote up to date and be carreful to switch to an exisiting branch and not create a new one!
-
-One way to avoif it is by listing all the branchs that exist in your project:
-
-```
-$ git branch -a
-* master
-remotes/origin/HEAD -> origin/main
-remotes/origin/main
-remotes/origin/new-feature
-```
-
-In the output you can see the first branch is our local *master* in which we are currently working (as denoted by the asterisk \*). The three others, in this example, relate to the branches that exist **remotely** on GitHub. If we want to work on the branch *new-feature* we will have to import it first with: `git checkout new-feature`. Git will understand that there is a remote branch with the same name and you want to work on this one. 
+> **Note**
+> that if you use `git checkout -b <name>` and use a non-unique name, meaning you giving the same name to a branch for the second time in the same repository, you would have created two branchs with the same maybe one in your local repository and another in your remote repository. This is error prone and will lead to problems! Hence, it is really important to use unique names, having local and remote up to date and be carreful to switch to an exisiting branch and not create a new one!
+>
+>> One way to avoid it is by listing all the branchs that exist in your project:
+>>
+>> ```
+>> $ git branch -a
+>> * master
+>> remotes/origin/HEAD -> origin/main
+>> remotes/origin/main
+>> remotes/origin/new-feature
+>> ```
+>>
+>> In the output you can see the first branch is our local *master* in which we are currently working (as denoted by the asterisk \*). The three others, in this example, relate to the branches that exist **remotely** on GitHub. If we want to work on the branch *new-feature* we will have to import it first with: `git checkout new-feature`. Git will understand that there is a remote branch with the same name and you want to work on this one. 
+>> 
 
 ### Branching on GitHub
 
-
-### Branching on GitHub
 We can make a new branch on GitHub. 
 1. Click the button: 'Main'
 2. In 'Find or create a branch...' type `new-feature` (or any other name)
@@ -104,35 +114,10 @@ GitHub will now display `new-feature`. It's very important to understand that an
 
 ---
 
-> ### {% icon hands_on %} Exercise 5
->
->  Edit the `plot2.R` file again, however make sure you're in the *new-feature* branch. Add the following lines that will make a new plot. These lines will allow us to investigate the relation between the weight, horsepower and miles per gallon variables of `mtcars` dataset in R. 
-> 
-> ```R
-> # Install requirements & plotting of 3D scatterplot
-> install.packages("scatterplot3d")
-> library(scatterplot3d)
-> attach(mtcars)
-> scatterplot3d(wt,hp,mpg, pch=16, highlight.3d=TRUE,
->               type="h", main="3D Scatterplot")
-> ```
->    > <details markdown="1">
->    > <summary>{% icon solution %} Solution
->    > </summary>
->    > Edit the file `plot2.R` by clicking on the pencil icon and add the following lines: 
->    > 
->    > <center><img src="../../images/solution5.PNG" /></center>
->    > Commit your changes with a useful commit message and save by clicking the green 'Commit changes'-button.
->    > 
->    > </details>
-> 
-{: .hands_on}
-
-
 Switch back to your *master* branch and have a look to the `plot2.R`-file. It shouldn't contain these changes. 
 
 
-# The _mirror effect_ 
+## The _mirror effect_ 
 
 Now that you can creat and work on new branchs there is a very important thing that you need to understand in order to avoid confusion.
 
@@ -159,25 +144,24 @@ Eventually you do `git checkout new-feature`, and you refresh your developing ar
 
 So do not freak-out if you `ls` your folder or open your file explorer and things are not there, probably they are just in a different branch!
 
-# Merging branches 
+## Merging branches 
 
-## Merging Locally
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
+### Merging Locally
 
-## Merging on GitHub
+To merge branchs is in theory simple, in practice you will face a few challanges. But at this point you should know how to handle them.
+The command-line is simple and intuitive, as most git commands. Go to branch `master` and in your terminal type:
+
+```
+$ git merge <branch_name>
+```
+
+In theory you can do from whatever direction. Possibilites are endless, it depends on your planning, intentions and desired outcomes.
+
+<center><img src="../../images/images_tutorial/git_merging.svg" width="800"/></center>
+
+The challange you might face many times when doing this, is facing a conflict. Just like in [chapter 7](https://github.com/vibbits/introduction-github/blob/master/tutorials/7_collaborating_GitHub/tutorial.md) you can solve this conflict and commit your changes in order to proced with the merging.
+
+### Merging on GitHub
 
 Branches are merged by making a **pull request**. In this section we will explain how to do a pull request, often shorted to PR. 
 
@@ -228,7 +212,7 @@ It might be possible that in a project with several people, you are not authoriz
 
 
 
-# Example workflow
+## Example workflow
 An example workflow is depicted in the figure below and is discussed in the following points. 
 
 ---
@@ -275,67 +259,15 @@ Next time you want to push your commits from *new-branch*, you won’t need to b
 
 ---
 
-> ### {% icon hands_on %} Exercise 6
->
->  Make a new branch and make sure you're in the branch. Rewrite the README.md file so it contains the following text. Once the changes have been committed and pushed to GitHub, create a pull request and merge the changes into the main branch.  
-> 
-> ```
-> # Downstream data-analysis R
-> This repository contains all the scripts for the downstream data analysis of my project.
-> ```
-> 
-> 
->    > <details markdown="1">
->    > <summary>{% icon solution %} Solution
->    > </summary>
->    >
->    >  
->    >  ```
->    >  git checkout -b readme
->    >  ```
->    >  Do the necessary changes
->    >  ```
->    >  git add README.md
->    >  git commit -m "changed README file completely"
->    >  git push origin readme
->    >  ```
->    >  Find the new branch in your GitHub repository. From there the solution is identical as discussed here above. 
->    > </details>
->
-{: .hands_on}
----
-
 As a final note on merging branches, we mention here that it is obviously also possible to merge branches on our computer locally. For this, we refer to some further reading materials linked [here](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
 
 --
 
 Switch back to your *main* branch and have a look to the `plot2.R`-file. It shouldn't contain these changes. 
 
-# Deleting branches 
+## Deleting branches 
 
-## Via GitHub
-
-If a branch is of no more use, we can delete it. To find all the existing branches in GitHub, click on *branches* in the top left corner of the repository.
-
----
-
-<center><img src="../../images/deleting-branch-1-update.PNG" /></center>
-
----
-
-
-After successfully merging our changes in the *main* branch, the old one(s) can be deleted. Click on the waste bin:
-
----
-
-<center><img src="../../images/deleting-branch-2.PNG" /></center>
-
----
-
-Go back to the main tab of the repository and find that the branch has been deleted. 
-
-
-## Locally
+### Locally
 
 Deleting a branch is as simple as typing the following command:
 
@@ -345,6 +277,27 @@ git branch -d <name-of-the-branch>
 
 If git refuses to do so, there is a forced way to do it as well by using the capital `-D` parameter. 
 
+
+### Via GitHub
+
+If a branch is of no more use, we can delete it. To find all the existing branches in GitHub, click on *branches* in the top left corner of the repository.
+
+---
+
+<center><img src="../../images/images_tutorial/deleting-branch-1-update.PNG" /></center>
+
+---
+
+
+After successfully merging our changes in the *main* branch, the old one(s) can be deleted. Click on the waste bin:
+
+---
+
+<center><img src="../../images/images_tutorial/deleting-branch-2.PNG" /></center>
+
+---
+
+Go back to the main tab of the repository and find that the branch has been deleted. 
 
 ---
 
