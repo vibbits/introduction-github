@@ -9,10 +9,15 @@
 
 ## About this course
 
-To be update soon ...
+This workshop will take you through the basics and a little more on how to use Git and GitHub.
+Tighten your sitbelts to enjoying some time-travel analogy to understand how Git works, how you can connect it to GitHub and how this will help you with your version control.
+Git is a free and open source distributed version-control system designed to maintain code, track changes, recover old versions and collaborate with other developers. 
 
 ## Material license
-To be update soon ...
+
+<img src="../introduction-github/images/logos/CC-by.png" title="" alt="" width="143">
+
+[**CC-BY**](https://creativecommons.org/licenses/by/4.0/)
 
 ## Program
 
@@ -52,18 +57,45 @@ To not get lost during the course start the crash course [***Introduction to Lin
 
 #### 2. GET YOUR COMPUTER READY
 
-For this course we are going to use some tools, some are mandatory some are sugestions that we believe can possibly make your experience better and the didatics more simple. You can find the detailes instructions for **any operating system*** in our [README_CoursePreparation.md](https://github.com/vibbits/introduction-github/blob/master/README_CoursePreparation.md) documentation. 
+For this course we are going to use some tools, some are mandatory some are sugestions that we believe can possibly make your experience better and the didatics more simple. You can find the detailes instructions for **any operating system*** in our [Get Ready chapter](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/1_Get_ready_for_the_course/tutorial.md#1). 
 
 Summary of what you might need:
-- GitBAsh (for windowns users)
+- WSL with GitBash (for windowns users)
 - Git installed in your terminal (MAC & Linux)
-- MarkText (Sugestion)
-- Ungit
+- MarkText (Editor Sugestion - MarkDown)
+- Ungit (Visualization tool - NOT mandatory)
 
 ## Learning Outcomes
 
-To be update soon ...
+1. Enumerate the primary purpose and advantages of Git in version control. [Knowledge] 
+
+2. Identify and name the difference between Git and GitHub. [Knowledge] 
+
+3. Explain the differences between branches and forks and their use cases. [Knowledge] 
+
+4. Describe and Distinguish between the development area, staging area, local and remote repositories. [Knowledge and Comprehension] 
+
+5. Explain the importance of commit messages and their role in tracking changes. [Comprehension] 
+
+6. Discuss the significance of staging changes before committing it. [Comprehension] 
+
+7. Apply the key steps in Git routine, including staging, committing changes to update the working tree. [Application] 
+
+8. Illustrate the purpose and use of branches in Git for testing new features and collaborations. [Comprehension and Application] 
+
+9. Use the Git commands to share changes from local to remote repository and vice versa. [Application] 
+
+10. Create a new repository on GitHub, clone it locally, make edits, and push changes back to GitHub. [Application] 
+
+11. Be able to clone a GitHub repository locally and perform edits. [Application] 
+
+12. Evaluate the impact of well-crafted `commit` messages on project documentation and collaboration. [Analysis] 
+
+13. Analyse the benefits and challenges of using branches in Git for project development. [Analysis] 
+
+14. To use commands to check the status and unique ID's of content modificaitons. [Application]
 
 ## Complementary reading (Tutorials)
-Check 10 chapter with [complementary reading](https://github.com/vibbits/introduction-github/blob/master/tutorials/Git_modules.md).
-You will review what you saw in the course and get some extra tips and information, such as using Rstudio on GitHub.
+
+Check some [**chapters**](https://github.com/vibbits/introduction-github/blob/master/tutorials/Git_modules.md) with complementary reading.
+You will *review* what you saw in the course and get *some extra* tips and information, such as using Rstudio on GitHub.
