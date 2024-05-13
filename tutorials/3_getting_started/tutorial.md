@@ -19,7 +19,7 @@ contributors:
 
 ---
 
-# 3. Get started
+# Get started
 
 Git is organized in areas, not all of them visible , but trust me THEY ARE THERE!
 Understandind this areas will make it easier to navigate in this new world.
@@ -49,17 +49,7 @@ So let's understand better these conceptual areas:
 
 Here's an example: Let's assume that we're starting a new project. Usually that also means that you make a new folder on your computer where you will keep all the files related to the project. By doing that you can start devloping what you plan, but **Git** is not yet helping you managing it. In other to have Git managing it with you, you need to follow a few more steps.
 
-> :books: **ACTIVITY**
->
-> Let's start our own project before we move on, you will start working in your developing Area:
->
-> Create a folder where you will develop all the activities of this course. Start a Markdown file called `dictionary_of_concepts.md` and write what you have learned so far:
-> Concepts like Git vs GitHub and the 3 conceptual areas and what they represent.
->
->p.s.: try to do it without looking back on the text, try to share your understanding.
->
-> Save it and come back here!
->
+
 
 
 ## My first commit
@@ -81,15 +71,16 @@ You still have an empty local repository once you have now **initialized** your 
 > [!NOTE]
 >
 > Not everytime you need, but it is good to configurate your user information to use Git, the reason will become clear soon! Also, you might get a warning if it is not yet configured. To do it you can use the commands bellow to include your name and e-mail in the config files. These are the same command if you want to update them later on.
->```
-> git config --global user.name "yourgithub username"
-> git config --global user.email "your_email@domain.com"
->```
+>>```
+>> git config --global user.name "yourgithub username"
+>> git config --global user.email "your_email@domain.com"
+>>```
 >
 > If you want to check if the information is already there you can use:
->```
-> git config --global --list
->```
+>>```
+>> git config --global --list
+>>```
+>
 
 The next thing you need to do is to tell **Git** what you want to keep track of. Git will help you with management, but the main choice and the planning is yours! 
 
@@ -199,7 +190,7 @@ You have many documents, you classify them, put them in the cart (your staging a
 I hope it is making as much sense for you as it does for me now!
 
 
-# 5. The strength of the staging area
+# The strength of the staging area
 
 
 ---

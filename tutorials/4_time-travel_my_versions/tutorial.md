@@ -127,21 +127,6 @@ If we have pushed the commits to our Github repository (online) we will see the 
 
 ---
 
-> ### {% icon question %} Question
-> 
-> Why is it useful to have the author's name and e-mail address in the history log?
->
->    > <details markdown="1">
->    > <summary>{% icon solution %} Solution
->    > </summary>
->    > It's obvious that in this local project we've been doing all the changes & commits. However at a certain point you migth collaborate with someone else on the same project. In this case it's useful to know who did what changes. 
->    >
->    > </details>
->
-{: .question}
-
----
-
 Git log can be extended with many other parameters, e.g. combine it with the `--oneline` argument, or add `--graph` to display the commit history as a text-based graph and `--decorate` to indicate which commits are associated with the current HEAD, the current branch main, or other Git references. As for all git command you can alwyas use `--help` the way it should look is `git log --help`, but you try it to get more informaiton in any git commands and its options.
 
 Other interesting options for the history (`log`) can be `-n <no>` to limit the ammount of commits you want to see, for example `git log -n 3` will return the last 3 commits. While `--abbrev-commit` will give you the shortest possibe unique identifier for al commits in the list.
