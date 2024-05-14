@@ -31,7 +31,7 @@ Git is an open-source tool that keeps **track of the changes** made to your proj
 So imagine git has an amazing **Time machine**, that will help us travel within a timeline (git project history) that we are going to build together. Each project where you initialize Git, to start a git repository will have its own timeline, and each point in time is one version you have chosen to keep for future reference. Now I'm going to help you through with our "DeLorean car" and together with Marty McFly and Dr. Emmett Brown we can sit tight and travel within the space-time of your project. What I mean is , you will save many versions of your project, and by the end of this course you will be able to go back in previous versions if so you wish. But be careful, the past can be visited but should no be changed!
 
 
-<center><img src="https://raw.githubusercontent.com/bpiereck/training-material_VIBTechTraining/master/topics/git-introduction/images/timeline-delorean.png" width="500"></center>
+<center><img src="../../images/images_tutorial/timeline-delorean.png" width="500"></center>
 
 
 

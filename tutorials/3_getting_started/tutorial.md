@@ -50,8 +50,6 @@ So let's understand better these conceptual areas:
 Here's an example: Let's assume that we're starting a new project. Usually that also means that you make a new folder on your computer where you will keep all the files related to the project. By doing that you can start devloping what you plan, but **Git** is not yet helping you managing it. In other to have Git managing it with you, you need to follow a few more steps.
 
 
-
-
 ## My first commit
 
 You now have your folder and 1st file and you need to tell Git to start tracking changes and help you with version control. Using the **terminal** go to your folder, and inside your developing area (the folder) you can initialize a local Git repository (This step should be done only one time).
@@ -59,28 +57,29 @@ You now have your folder and 1st file and you need to tell Git to start tracking
 So here it is the first Git comman you need to learn:
 
 To initialize the local repo
-```
-$ git init
-```
+
+`$ git init`
+
 When we initialized Git on the folder it means git will start seeing everything inside that folder and it's subfolders. It does **NOT** mean it is already keeping track of your versions. The local repository is acttualyy a new hidden folder called `.git/` and it will store the different versions of your work. This structure allows us to only see in the folder the latest version of the files, while all the versions (points in your timeline) will be managd by git in the `.git/` directory.  Remember that and be very carreful with this directory, any damage or deleting it will crash your old versions storage, your local repository.
 
 You still have an empty local repository once you have now **initialized** your local Git repository. A good thing to do is actually checking and filling your config file before we start saving points in our time-line, so they are identifiable. Check on the Note bellow how to do it. 
 
 <center><img src="../../images/images_tutorial/empty-timeline.svg" width="700"/></center>
 
-> [!NOTE]
->
-> Not everytime you need, but it is good to configurate your user information to use Git, the reason will become clear soon! Also, you might get a warning if it is not yet configured. To do it you can use the commands bellow to include your name and e-mail in the config files. These are the same command if you want to update them later on.
->>```
->> git config --global user.name "yourgithub username"
->> git config --global user.email "your_email@domain.com"
->>```
+ 🚨 **Important Note** 
+
+> Not everytime you need, but it is good to configurate your user information to use Git, the reason will become clear soon! Also, you might get a warning if it is not yet configured. To do it you can use the commands bellow to include your name and e-mail in the config files. These are the same command if you want to update them later on. 
+>``` 
+> git config --global user.name "yourgithub username" 
+> git config --global user.email "your_email@domain.com" 
+>``` 
 >
 > If you want to check if the information is already there you can use:
->>```
->> git config --global --list
->>```
 >
+>``` 
+> git config --global --list 
+>``` 
+
 
 The next thing you need to do is to tell **Git** what you want to keep track of. Git will help you with management, but the main choice and the planning is yours! 
 
@@ -118,7 +117,8 @@ git commit -m <meaninful mesage>
 ```
 <center><img [https://workchronicles.substack.com/p/comic-meaningful-commit-messages?utm_source=publication-search] src=https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff103d7d1-5fdd-4559-9c0e-c47e871a3e22_4800x4800.png width="400"/></center>
 
-> [!NOTE]
+🚨 **Important Note** 
+
 >
 > When thinking of a menaingul message, what do you think?
 >

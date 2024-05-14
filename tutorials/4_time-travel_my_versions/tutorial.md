@@ -45,7 +45,7 @@ The second sentence tells us that our local branch is exactly the same as our or
 
 Lastly, git tells us that there is nothing to commit, which makes sense as we don't have any changes at the moment. 
 
-> :books: **ACTIVITY**
+> 📖 **ACTIVITY**
 > 
 > Let's make some changes to one of our files again.  Check the status again with `git status`.
 >
@@ -67,7 +67,7 @@ This time, git tells us that there are changes in the file and they are not in t
 - Use `git add <file.txt>` to add the changes to the staging area 
 - Use `git restore file.txt` to remove the changes from your working directory. This will undo the changes that you made since the last time you committed it. 
 
-> :books: **ACTIVITY**
+> 📖 **ACTIVITY**
 > 
 > Add the file to the staging area and check the status again with `git status`
 >
@@ -87,7 +87,7 @@ The file is now in the staging area and we have two options:
 
 Let's do the latter, check the status again and then remove the changes from your working directory. 
 
-> :books: **ACTIVITY**
+> 📖 **ACTIVITY**
 > 
 > Last, try to add a new file, an image or text file that you have never staged nor commited. Now check the status again.
 > 
