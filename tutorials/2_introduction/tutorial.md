@@ -17,7 +17,7 @@ contributors:
 ---
 
 
-# 1. Introduction
+# 2. Introduction
 Have you also been in a similar and recognizable situation as depicted below? Saving different versions of your files and scripts is essential to keep track of changes, though it can become chaotic very quickly if we do not use the excellent tools we have available to us. Git is one of these excellent tools. It works similar to [Google Docs'](https://support.google.com/drive/answer/2409045?co=GENIE.Platform%3DDesktop&hl=en) history feature in which Google automatically saves your document and the changes that happened at a particular moment in time. However, Git allows you to control and decide yourself when changes are worth saving, hence making it much **more powerful and flexible**. Each change is saved together with a message that enables you or your collaborators to keep an overview of the history of the project.  
 
 

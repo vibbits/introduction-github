@@ -15,7 +15,7 @@ contributors:
 - MaybeJustJames
 ---
 
-# Get ready for the course
+# 1. Get ready for the course
 
 <center><img src="../../images/images_tutorial/overwelmed_people_freepick.svg" width="500"/></center>
 
