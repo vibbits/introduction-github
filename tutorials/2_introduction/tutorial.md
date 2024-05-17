@@ -49,7 +49,7 @@ There is a major difference between Git and GitHub though. Imagine Git is your r
 
 In summary, git is software that works on your computer (locally), whereas GitHub is a service for connecting and uploading/downloading files much like saving files in the cloud (remotely). There are some alternatives for Git ([link](https://www.g2.com/products/git/competitors/alternatives)) which will not be discussed in this course, and there are some for GitHub with Gitlab and Bitbucket as main competitors. These alternatives essentially share the same concepts and therefore we choose for the tools that enjoy the most traction in the community, **namely Git and GitHub**. 
 
-In this course we will learn how Git works on your computer, giving us a proper understanding of its functionalities. Grasping these concepts is important if we want to use Git in other apps (e.g. in [Chapter 8](https://material.bits.vib.be/topics/git-introduction/tutorials/8_github_rstudio/tutorial.html) we will learn how GitHub and RStudio interact).
+In this course we will learn how Git works on your computer, giving us a proper understanding of its functionalities. Grasping these concepts is important if we want to use Git in other apps (e.g. in [Chapter 11](https://material.bits.vib.be/topics/git-introduction/tutorials/11_github_rstudio/tutorial.html) we will learn how GitHub and RStudio interact).
 
 ---
 
