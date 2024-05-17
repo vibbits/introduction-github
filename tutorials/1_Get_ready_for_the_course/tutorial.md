@@ -246,4 +246,4 @@ Ungit
 
 ---
 
-You can access some [reading material](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/2_introduction/tutorial.md#1) now if you want!
+You can access some [reading material]https://github.com/vibbits/introduction-github/blob/master/tutorials/2_introduction/tutorial.md) now if you want!

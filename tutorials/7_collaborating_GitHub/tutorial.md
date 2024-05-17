@@ -125,4 +125,4 @@ $ git push
 
 ---
 
-Let's continue with the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/8_branchs/tutorial.md#1)!
+Let's continue with the [next session]https://github.com/vibbits/introduction-github/blob/master/tutorials/8_branches/tutorial.md)!

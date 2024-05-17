@@ -257,4 +257,4 @@ Well, I don't have a good answer for that, other than: AVOID CREATING TRUCTURES 
 
 ---
 
-Let's go to the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/4_time-travel_my_versions/tutorial.md#1)!
+Let's go to the [next session](https://github.com/vibbits/introduction-github/blob/master/tutorials/4_time-travel_my_versions/tutorial.md)!

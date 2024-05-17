@@ -303,4 +303,4 @@ Go back to the main tab of the repository and find that the branch has been dele
 ---
 
 
-Let's continue with the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/9_forks/tutorial.md#1)!
+Let's continue with the [next session](https://github.com/vibbits/introduction-github/blob/master/tutorials/8_branches/tutorial.md)!

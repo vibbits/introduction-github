@@ -212,4 +212,4 @@ Open the file `README.md` and check whether the changes have merged in.
 
 ---
 
-Let's go to the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/6_gitignore&README/tutorial.md#1)!
+Let's go to the [next session](https://github.com/vibbits/introduction-github/blob/master/tutorials/6_gitignore%26README/tutorial.md)!
