@@ -114,4 +114,4 @@ What if the upstream repository changed while you were working on your local rep
 
  --
 
-Let's continue with the [next session](https://github.com/vibbits/introduction-github/blob/master/tutorials/10_Git_aliases/tutorial.md)!
+Let's continue with the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/10_Git_aliases/tutorial.md#1)!

@@ -53,4 +53,4 @@ In this course we will learn how Git works on your computer, giving us a proper 
 
 ---
 
-Let's go to the [next session](https://github.com/vibbits/introduction-github/blob/master/tutorials/3_getting_started/tutorial.md)!
+Let's go to the [next session](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/3_getting_started/tutorial.md#1)!
