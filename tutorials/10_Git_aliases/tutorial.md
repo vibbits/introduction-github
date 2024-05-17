@@ -1,4 +1,4 @@
-# Extra: Aliases
+# 10. Aliases (Extra)
 
 The configuration file is also a place where we can make our own aliases, like creating a shortcut for lines of git commands that are used frequently. In other words, creating **a new command tailored to your wishes**. It often consists of an existing Git command (e.g. `git log`) followed by a bunch of variables. This omits that we have to type a long command the whole time. Here are some useful aliases for a structured history overview:
 

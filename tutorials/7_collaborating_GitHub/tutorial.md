@@ -15,7 +15,7 @@ contributors:
 - james colier
 ---
 
-# Start a collaboration
+# 7. Start a collaboration
 
 I'll take the risk to say that most time we are not working alone, and even you are the exception, in some point you might want to give access to someone to collaborate with you in your repository.
 

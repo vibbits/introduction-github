@@ -16,7 +16,7 @@ contributors:
 
 ---
 
-# What's a branch?
+# 8. What's a branch?
 
 So, we have been working with one unique and linear time-line. The idea of branching is that we can have parallel time-lines, meaning we create a copy of the project in which we can add a new feature, teste different solution for the same problem, work in parallel with our collaboratorsg, etc. 
 

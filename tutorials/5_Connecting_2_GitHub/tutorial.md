@@ -17,7 +17,7 @@ contributors:
 - MaybeJustJames
 ---
 
-# The 4th conceptual area
+# 5. Connect to GitHub
 
 We need to talk about the fourth and last conceptual area!
 

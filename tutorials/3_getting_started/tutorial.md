@@ -19,7 +19,7 @@ contributors:
 
 ---
 
-# Get started
+# 3. Get started with Git
 
 Git is organized in areas, not all of them visible , but trust me THEY ARE THERE!
 Understandind this areas will make it easier to navigate in this new world.

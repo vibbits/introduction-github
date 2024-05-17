@@ -17,7 +17,7 @@ contributors:
 
 ---
 
-# 1. Introduction
+# 11. GitHub & Rstudio 
 
 Rstudio is a popular platform for downstream data-analysis, statistics, machine learning and more scientific related analysis using the R language. If you're unfamiliar with R and Rstudio, some materials on this website that will get you started are accesible via [this link](https://material.bits.vib.be/topics/R/). Uptil now we have focused on the core principles of Git & GitHub, which gives us enough knowledge to start integrating in other platforms. 
 

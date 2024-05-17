@@ -15,7 +15,8 @@ contributors:
 ---
 
 
-# Introduction
+# 9. Forking
+
 In this chapter we will discuss a second strategy for collaborating on projects. These strategies are especially useful when we do not have authorisation to change the content of someone else's project, even though we still have a useful edit/suggestion in mind.  
 
 Forking is like starting the `multiverse` level of git. We started working on one time-line, simple and liner reality. Then we moved to parallel time-lines using branchs and now finally you can create a multiverse. When you `fork` a GitHub repository you create a copy of the current state of this repository on your own and you own it!

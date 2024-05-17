@@ -18,7 +18,7 @@ contributors:
 ---
 
 
-# My time-line check
+# 4. A travel in Time: Check your versions 
 
 We have seen how to save points in time by commiting new versions of what ever you are developing. 
 But you are most likelly interested in comparing old versions of your history to the current version and maybe even recover older versions.

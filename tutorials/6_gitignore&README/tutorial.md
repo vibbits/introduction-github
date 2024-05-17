@@ -12,6 +12,8 @@ contributors:
 - tmuylder
 ---
 
+# 6. READM & .gitignore - Importante files
+
 # README please
 
 The README file, was commented before, but this is a very important file, you can have it without any extension `READE` or, what I advise is that you have a markdown version `README.md`, this way you can have a nicelly formated file.
