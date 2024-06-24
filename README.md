@@ -1,11 +1,5 @@
 # Introduction to Git & GitHub
 
-## Contributors
-
-[![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0001-6691-4233) Alexander Botxki
-[![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0001-5958-0669) Bruna Piereck
-[![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0002-0020-421X) James Collier
-[![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0002-3926-7293) Tuur Muyldermans
 
 ## About this course
 
@@ -18,6 +12,33 @@ Git is a free and open source distributed version-control system designed to mai
 [<img src="https://raw.githubusercontent.com/vibbits/introduction-github/master/images/logos/CC-by.png" title="" alt="" width="143">](https://creativecommons.org/licenses/by/4.0/)
 
 [**CC-BY**](https://creativecommons.org/licenses/by/4.0/)
+
+
+## Contributors
+
+[![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0001-6691-4233) Alexander Botxki
+[![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0001-5958-0669) Bruna Piereck
+
+[![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0002-0020-421X) James Collier
+[![ORCID](https://raw.githubusercontent.com/vibbits/rdm-introductory-course/main/images/logos/32px-ORCID_iD.svg.png)](https://orcid.org/0000-0002-3926-7293) Tuur Muyldermans
+
+## Get ready for the course
+
+#### 1. BEFORE THE COURSE 
+
+If you don’t have experience with command line it is ***essential*** that you follow a quick course since this skills are very important to be able to use git and GitHub.
+
+To not get lost during the course start the crash course [***Introduction to Linux command line***](https://elearning.vib.be/courses/linux/) on [VIB e-learnign](https://elearning.vib.be/) system.
+
+#### 2. GET YOUR COMPUTER READY
+
+For this course we are going to use some tools, some are mandatory some are sugestions that we believe can possibly make your experience better and the didatics more simple. You can find the detailes instructions for **any operating system*** in our [Get Ready chapter](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/1_Get_ready_for_the_course/tutorial.md#1). 
+
+Summary of what you might need:
+- WSL with GitBash (for windowns users)
+- Git installed in your terminal (MAC & Linux)
+- MarkText (Editor Sugestion - MarkDown)
+- Ungit (Visualization tool - NOT mandatory)
 
 ## Program
 
@@ -47,23 +68,6 @@ Day 2
 | 14h55 | Tagging & Forking                                                         |
 | 17h00 | End of the day                                                            |
 
-## Get ready for the course
-
-#### 1. BEFORE THE COURSE 
-
-If you don’t have experience with command line it is ***essential*** that you follow a quick course since this skills are very important to be able to use git and GitHub.
-
-To not get lost during the course start the crash course [***Introduction to Linux command line***](https://elearning.vib.be/courses/linux/) on [VIB e-learnign](https://elearning.vib.be/) system.
-
-#### 2. GET YOUR COMPUTER READY
-
-For this course we are going to use some tools, some are mandatory some are sugestions that we believe can possibly make your experience better and the didatics more simple. You can find the detailes instructions for **any operating system*** in our [Get Ready chapter](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/1_Get_ready_for_the_course/tutorial.md#1). 
-
-Summary of what you might need:
-- WSL with GitBash (for windowns users)
-- Git installed in your terminal (MAC & Linux)
-- MarkText (Editor Sugestion - MarkDown)
-- Ungit (Visualization tool - NOT mandatory)
 
 ## Learning Outcomes
 
