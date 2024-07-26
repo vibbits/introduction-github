@@ -103,3 +103,10 @@ Day 2
 
 Check some [**chapters**](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/introduction-github/master/tutorials/Git_modules.md#1) with complementary reading.
 You will *review* what you saw in the course and get *some extra* tips and information, such as using Rstudio on GitHub.
+
+
+links test
+
+[get ready 1](https://github.com/vibbits/introduction-github/blob/test_links_methods/tutorials/1_Get_ready_for_the_course/tutorial.md)
+
+[get ready 2](./tutorials/1_Get_ready_for_the_course/tutorial.md)
