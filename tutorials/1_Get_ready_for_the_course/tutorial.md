@@ -19,19 +19,19 @@ contributors:
 
 <center><img src="../../images/images_tutorial/overwelmed_people_freepick.svg" width="500"/></center>
 -----
-<span style='font-size: 20px'>
-Do not worry!
-    
-Try to follow this steps, this should take around 30min to 1h.
+<span style='font-size: 20px'>Do not worry!</span>
 
-If you get in trouble just contact your trainer by answering the e-mail.
-</span>
+<span style='font-size: 20px'>Try to follow this steps, this should take around 30min to 1h.</span>
+
+<span style='font-size: 20px'>If you get in trouble just contact your trainer by answering the e-mail.</span>
 
 ## Get Yourself Ready
 
-For this course we will explore version controlling in a mixture of [Git](https://git-scm.com/) via the **command-line** and [GitHub](https://github.com/). The former requires some basic understanding of the Linux command line. If you're not familiar with Linux command line, you **MUST** have a look at the materials in this [crash course](https://elearning.vib.be/courses/linux/), in this 4 parts course, you need only the first 3 parts to folow the Git & GitHub course.Complementarily check at the [Linux Survival course](https://linuxsurvival.com/linux-directory-structure/) and this material [here](https://material.bits.vib.be/topics/linux/). 
+<span style='font-size: 20px'>For this course we will explore version controlling in a mixture of [Git](https://git-scm.com/) via the **command-line** and [GitHub](https://github.com/). The former requires some basic understanding of the Linux command line.</span>
 
-For this step you might need to invest a few hours. Some students without command line experience reported about 4h of investment. If you have some experience it might be a short review.
+<span style='font-size: 20px'>If you're not familiar with Linux command line, you **MUST** have a look at the materials in this [crash course](https://elearning.vib.be/courses/linux/), in this 4 parts course, you need only the first 3 parts to folow the Git & GitHub course.Complementarily check at the [Linux Survival course](https://linuxsurvival.com/linux-directory-structure/) and this material [here](https://material.bits.vib.be/topics/linux/). </span>
+
+<span style='font-size: 20px'>For this step you might need to invest a few hours. Some students without command line experience reported about 4h of investment. If you have some experience it might be a short review.</span>
 
 
 ## 1st things 1st, Get an account
@@ -39,9 +39,11 @@ For this step you might need to invest a few hours. Some students without comman
 **You will need a GitHub account !!!**
 
 1. Get an account
+------------------
 Use the link to creating a [GitHub Account](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) if you don’t already have it!
 
 2. Keep your account safe: GitHub two-factor-authentication
+-------------------
 
 It is about to become mandatory for everyone to use the two-authentication-factor on GitHub. therefore we are going to configurate and start using it immediately!
 It is advised to choose **at least two** authentication methods out of the 4 they offer:
@@ -49,7 +51,7 @@ It is advised to choose **at least two** authentication methods out of the 4 the
 In all cases your account will generate a **list of codes** that you **MUST** keep safe and accessible JUST FOR YOURSELF in case it is requested to recover your account-access. For more information about any of the methods access [GitHub documentation](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-security-key). But I’m giving you a summary bellow.
 
 
-2.1 TOTP mobile app, most advised and secure option (we are suggesting the Microsoft authenticator app for this)
+A. TOTP mobile app, most advised and secure option (we are suggesting the Microsoft authenticator app for this)
 
 Download the Microsoft authenticator app on your phone.
 Go to the *settings* of your GitHub account. You will find it by clicking in your **profile picture**.
@@ -70,7 +72,7 @@ You are **done** with configuring **the 1st** authentication method!
 > Scroll to the session two-factor methods and choose to **add** a new method, one of the below.
 
 
-2.2 SMS text messages (limited to some countries, see the list here)
+B. SMS text messages (limited to some countries, see the list here)
 
 Complete the CAPTCHA challenge.
 Select your country code and type your mobile number.
@@ -81,7 +83,7 @@ If this is the 1st method, you choose:
     You are done with configuring the 1st authentication method!
 
 
-2.3 Using security key
+C. Using security key
 
 This are hardware devices that can be used as security key, such as a USB-stick.
 Click register new security key.
@@ -92,7 +94,7 @@ If this is the 1st method, you choose:
     You are done with configuring the 1st authentication method!
 
 
-2.4 Using GitHub mobile
+D. Using GitHub mobile
 
 This one can only be configurated if you **already have** the **TOTP app** or **SMS** configurated.
 Install GitHub Mobile.
@@ -223,7 +225,9 @@ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe
 Check the summary bellow to install Ungit:
 *Is easier then it might seam.*
 
-1. You need to install the software [Node JS](https://nodejs.org/en/).
+1. You need to install the software [Node JS](https://nodejs.org/en/download/prebuilt-installer).
+    
+    Choose the version 18.20.4 so it works.
 
 2. Enter the terminal
 > P.S.: In windowns you must find the ***CMD** terminal, trying to install with GitBash might not work.
