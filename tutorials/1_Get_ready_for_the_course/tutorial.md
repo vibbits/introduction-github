@@ -18,10 +18,14 @@ contributors:
 # 1. Get ready for the course
 
 <center><img src="../../images/images_tutorial/overwelmed_people_freepick.svg" width="500"/></center>
-
+-----
+<span style='font-size: 20px'>
 Do not worry!
+    
 Try to follow this steps, this should take around 30min to 1h.
+
 If you get in trouble just contact your trainer by answering the e-mail.
+</span>
 
 ## Get Yourself Ready
 
