@@ -50,7 +50,7 @@ It is advised to choose **at least two** authentication methods out of the 4 the
 
 In all cases your account will generate a **list of codes** that you **MUST** keep safe and accessible JUST FOR YOURSELF in case it is requested to recover your account-access. For more information about any of the methods access [GitHub documentation](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-security-key). But I’m giving you a summary bellow.
 
-------
+****************************
 
 A. TOTP mobile app, most advised and secure option (we are suggesting the Microsoft authenticator app for this)
 
@@ -72,7 +72,7 @@ You are **done** with configuring **the 1st** authentication method!
 >
 > Scroll to the session two-factor methods and choose to **add** a new method, one of the below.
 
-------
+****************************
 
 B. SMS text messages (limited to some countries, see the list here)
 
@@ -84,7 +84,7 @@ If this is the 1st method, you choose:
     Save your recovery codes. And confirm you have saved it.
     You are done with configuring the 1st authentication method!
 
-------
+****************************
 
 C. Using security key
 
@@ -96,7 +96,7 @@ If this is the 1st method, you choose:
     Save your recovery codes. And confirm you have saved it.
     You are done with configuring the 1st authentication method!
 
-------
+****************************
 
 D. Using GitHub mobile
 
