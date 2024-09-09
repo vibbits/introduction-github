@@ -42,4 +42,4 @@
 ---
 11. GitHub & Rstudio [🔗](https://liascript.github.io/course/?https://github.com/vibbits/introduction-github/blob/master/tutorials/11_github_rstudio/tutorial.md)
 ---
-[<img src="https://raw.githubusercontent.com/vibbits/introduction-github/master/images/images_tutorial/rstudio-1.PNG" width="200"/>](https://liascript.github.io/course/?https://github.com/vibbits/introduction-github/blob/master/tutorials/11_github_rstudio/tutorial.md)
+[<img src="https://raw.githubusercontent.com/vibbits/introduction-github/master/images/images_tutorial/rstudio-1.PNG" width="200"/>](https://github.com/vibbits/introduction-github/blob/master/tutorials/11_github_rstudio/tutorial.md)
