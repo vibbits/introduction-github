@@ -15,9 +15,11 @@ contributors:
 - MaybeJustJames
 ---
 
-# 1. Get ready for the course
+# 1. Get ready to start using Git and GitHub
 
-<center><img src="../../images/images_tutorial/overwelmed_people_freepick.svg" width="500"/></center>
+Welcome to the course! This tutorial will guide you through the necessary steps to get ready for using Git and GitHub. By the end of this tutorial, you will have all the dependencies installed and your computer prepared for the course activities.
+
+<center><img src="../../images/images_tutorial/overwelmed_people_freepick.svg" width="300"/></center>
 -----
 <span style='font-size: 20px'>Do not worry!</span>
 
@@ -27,26 +29,25 @@ contributors:
 
 ## Get Yourself Ready
 
-<span style='font-size: 20px'>For this course we will explore version controlling in a mixture of [Git](https://git-scm.com/) via the **command-line** and [GitHub](https://github.com/). The former requires some basic understanding of the Linux command line.</span>
+<span style='font-size: 20px'>For this course we will explore version controll using [Git](https://git-scm.com/) via the **command-line** and [GitHub](https://github.com/). Basic understanding of Linux command line is requeired.</span>
 
-<span style='font-size: 20px'>If you're not familiar with Linux command line, you **MUST** have a look at the materials in this [crash course](https://elearning.vib.be/courses/linux/), in this 4 parts course, you need only the first 3 parts to folow the Git & GitHub course.Complementarily check at the [Linux Survival course](https://linuxsurvival.com/linux-directory-structure/) and this material [here](https://material.bits.vib.be/topics/linux/). </span>
+<span style='font-size: 20px'>If you're not familiar with Linux command line, you **MUST** have a look at the materials in this [crash course](https://elearning.vib.be/courses/linux/), in this 4 parts course, you need only the first 3 parts to folow the Git & GitHub course. Additionally check at the [Linux Survival course](https://linuxsurvival.com/linux-directory-structure/) and this material [here](https://material.bits.vib.be/topics/linux/). </span>
 
-<span style='font-size: 20px'>For this step you might need to invest a few hours. Some students without command line experience reported about 4h of investment. If you have some experience it might be a short review.</span>
+<span style='font-size: 20px'> This step might take a few hours. Students without command line experience reported about 4h of investment. If you have some experience it might be a quick review.</span>
 
 
-## 1st things 1st, Get an account
+## 1st things 1st: Get an account
 
 **You will need a GitHub account !!!**
 
-1. Get an account
+1. Createe an account
 ------------------
-Use the link to creating a [GitHub Account](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) if you don’t already have it!
+Use the link to create a [GitHub Account](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) if you don’t already have it!
 
-2. Keep your account safe: GitHub two-factor-authentication
+2. Enable two-factor-authentication to stay safe
 -------------------
 
-It is about to become mandatory for everyone to use the two-authentication-factor on GitHub. therefore we are going to configurate and start using it immediately!
-It is advised to choose **at least two** authentication methods out of the 4 they offer:
+Choose **at least two** authentication methods out of the 4 they offer:
 
 In all cases your account will generate a **list of codes** that you **MUST** keep safe and accessible JUST FOR YOURSELF in case it is requested to recover your account-access. For more information about any of the methods access [GitHub documentation](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-security-key). But I’m giving you a summary bellow.
 
@@ -116,18 +117,25 @@ Use the GitHub app in your device for authentication.
 - MAC & Linux
 
 #### Windows OS
-Enamble **WSL** in your computer, that is the best way to use the terminal, since most of the course will be using a terminal. 
-You also need to download and install [GitBash](https://git-scm.com/downloads), to use git in your computer.
 
-Now that you have your terminal, you will need to generate an SSH key:
-Copy past this line in your terminal, and replace it with your email
+A) Enamble **WSL** in your computer asmost of the course will use command line, and that is the best way to use it.
+
+B) You also need to download and install [GitBash](https://git-scm.com/downloads), to use git in your computer.
+
+> **IMPORTANTE:**
+> Some people have reported incompatibility with **CITRIX WORKPLACE**, test before coming to the course if your gitbash is working
+> 
+
+C) Generate a SSH key to stay safe in the command line
+
+- Copy past the command bellow in your terminal, replacing with your email
 ---
 
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-Alternativelly, if this doesn't work. You can try this (replace your email):
+- Alternativelly, if this doesn't work. You can try this (replace your email):
 ---
 
 ```
@@ -136,23 +144,26 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 > IMPOTANTE:
 > When you are requeste to name the file, just press `ENTER` without changing anything.
-> When you are requested a password, **create A GOOD one**, since this is controling access between your computer and GitHub in both ways.
+> When you are requested a password, **create A STRONG one**. This is controling access between your computer and external source (GitHUb).
 >
-> For more info: 
-> See this [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+> For more info see this [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 
-Last, but not least, **add** the SSH key to GitHub using this [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account). Be carreful to only share your **PUBLIC key**, it will be a file named either id_ed25529.pub or id_rsa.pub.
+D) Add the public SSH key to GitHub
 
+Using this [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) **add** the SSH key to GitHub. Be carreful to only share your **PUBLIC key** (**id_ed25529.pub** or **id_rsa.pub**).
 
-While using Git we advise **not** to use text usual formating, but instead use MarkDown (MD). MD is a lightweighted markup language to create formatted text using plein text. Meaning, text caracteres in specific positions work as codes to formatting bold, itallic, titles, subtitles, etc...
+E) Editor
 
-If you never used MD before we suggest you to get [MarkText](https://github.com/marktext/marktext#download-and-installation) editor to this course. This editor will try to help you giving short-cuts for this code-caracters.
+While using Git we advise using MarkDown (MD) or plain text. 
 
-Another option is is [VScode](https://code.visualstudio.com/Download), you can use as text editor and also as your terminal , and have it all integrated.
+> MD is a lightweighted markup language to create formatted text using plein text. Meaning, text caracteres in specific positions work as codes to formatting bold, itallic, titles, subtitles, etc...
 
-> **IMPORTANTE:**
-> For people who have **CITRIX WORKPLACE** in their computer, you should know that **Git Bash** is not compatible with it, and so, to have it fully functional, the former application must be uninstalled.
+Possible editors
+
+- If you never used MD before we suggest you to get [MarkText](https://github.com/marktext/marktext#download-and-installation) 
+
+- Another option is [VScode](https://code.visualstudio.com/Download), to have the text editor and terminal integrated.
 
 
 #### MACbook OS & Linux
