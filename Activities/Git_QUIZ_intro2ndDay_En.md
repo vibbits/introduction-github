@@ -142,3 +142,23 @@ c. I like shopping, putting items in baskets makes me happy
 d. I just have to do it -- [Shia LaBeolf](https://youtu.be/ZXsQAXx_ao0)
 
 
+# 13. A conflict when is solved ...
+
+a. Automatically saves in a new commit
+
+b. Needs to be commited
+
+c. Needs to be staged & commited
+
+d. If it is solved I don't worry anymore
+
+
+# 14. When facing a conflict in Git/GitHub ...
+
+a. I call my bestie and ask for help
+
+b. I sent my version 1st so it prevails
+
+c. I have to keep a combination of both versions
+
+d. I can re-write as I see fit the version for the next commit
